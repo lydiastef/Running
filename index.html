@@ -8,31 +8,34 @@
     <title>Running</title>
 </head>
 <body>
+    <!--Navbar-->
     <nav>
-        <div class="container">
-            <div class="container1">
-                <h1 class="h1">Hello</h1>
-                <div class="logo">
-                </div>    
-                    <ul>
-                        <a href="#"></a>
-                        <a href="#"></a>
-                        <a href="#"></a>
-                    </ul>
-            </div>
-        </div>
+        <div id="navbarPlaceholder"></div>
     </nav>
 
-
+    <!--Hero1-->
     <section class="hero1">
-        <img class="img" src="./pexels-pixabay-279329.jpg" alt="">
+        <img class="img" src="./IMG_20220716_100121232-min.jpg" alt="">
         <div class="hero1-content">
             <h1 class="hero1-h1">Discover the Thrill <br> of Running</h1>
-            <h2 class="hero1-h2">Explore the World of Endurance <br> and Achieve Your Goals</h2>
+            <h2 class="hero1-h2">Explore the World of Endurance <br> and Achieve Your Fitness Goals</h2>
         </div>
     </section>
 
+    <!--Hero2-Blogposts-->
+    <section class="hero2">
+        <a class="starting-link" href="./Blog Posts/starting.html">Starting out</a>
+    </section>
 
+    <!--JS to fetch the navbar page-->
+    <script>
+        fetch('./Blog Posts/navbar.html')
+          .then(response => response.text())
+          .then(html => {
+            const navbarPlaceholder = document.getElementById('navbarPlaceholder'); // Replace 'navbar-container' with the ID of the element where you want to insert the navbar
+            navbarPlaceholder.innerHTML = html;
+          });
+      </script>
     
 </body>
 </html>
