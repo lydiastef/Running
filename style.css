@@ -7,22 +7,31 @@
     font-family: 'Merriweather', serif;
 }
 
+body {
+    background-color: #e9ede5;
+}
+
 h1 {
-    font-size: 22px;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
 }
 
 h2 {
     font-size: 16px;
     margin: 25px 0 5px 0;
+    letter-spacing: 0.6px;
 }
 
 p {
     font-size: 12px;
     line-height: 23px;
+    letter-spacing: 0.6px;
+    font-weight: 100;
 }
 
 /*===========================
-   Navbar and main image
+           Navbar
 ============================*/
 
 .container {
@@ -30,9 +39,9 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    background: #586333;
     border-bottom: 1px solid #ccc;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    color: aqua;
     width: 100%;
     height: 4rem;
 }
@@ -49,16 +58,41 @@ p {
 }
 
 .ahref {
-    color: black;
+    color: white;
     text-decoration: none;
     margin: auto 0 auto 1rem;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    position: relative;
+    display: inline-block;
 }
 
-.img {
+.ahref span::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Control the distance of the line from the text */
+    width: 0;
+    height: 2px; /* Control the thickness of the line */
+    background-color: #dda15e;
+    transform-origin: left;
+    transition: width 0.3s ease-in-out;
+}
+      
+.ahref span:hover::after {
+    width: 100%;
+}
+
+/*===========================
+         Main image
+============================*/
+
+.hero1-img {
     display: flex;
-    margin: 2rem auto 2rem auto;
-    width: 90%;
-    height: 20rem;
+    margin: 0 auto 2rem auto;
+    max-width: 100%;
+    height: auto;
     z-index: -1;
 }
 
@@ -69,20 +103,71 @@ p {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    margin-top: -21rem;
+    margin-top: -19rem;
+}
+
+.hero-h1 {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .hero1-h2 {
-    margin-top: 1rem;
+    margin-top: 6rem;
+    margin-left: -7rem;
     font-weight: 100;
     font-size: 14px;
+    color: white;
+    width: 45%;
+    border-radius: 10px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 1), 
+    2px 2px 6px rgba(0, 0, 0, 0.8);}
+
+/*===========================
+         Intro text
+============================*/
+
+.intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 2rem;
+}
+
+.intro-box {
+    padding: 1.5rem;
+    background: white;
+    border-radius: 8px;
+}
+
+.welcome-span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.introbox-text {
+    background: white;
+    margin-bottom: -2.5rem;
+}
+
+.intro-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto;
+    width: 90%;
 }
 
 .hero2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 14rem;
+    margin-top: 4rem;
 }
 
 .starting-link {
@@ -94,29 +179,91 @@ p {
           Blog posts
 ============================*/
 
+.text-content {
+    margin-bottom: 1.5rem;
+}
+
+.starting-img {
+    max-width: 100%;
+}
+
 .starting-article {
     margin: 3rem;
 }
 
-@media screen and (min-width: 700px) { 
+/*===========================
+          Footer
+============================*/
+
+.footer-container {
+    width: 100%;
+    height: 5rem;
+    background: #586333;
+    color: white;
+    margin: 2rem 0 0 0;
+}
+
+.footer-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+@media screen and (min-width: 750px) { 
     h1 {
         font-size: 26px;
     }
-    
+
     h2 {
-        font-size: 16px;
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
     }
 
 /*===========================
    Navbar and main image
 ============================*/
 
-    .img {
-        height: 25rem;
+    .ahref {
+        font-size: 14px;
     }
 
     .hero1-content {
-        margin-top: -22rem;
+        margin-top: -36rem;
+    }
+
+    .hero1-h2 {
+        margin-top: 18rem;
+        margin-left: -12rem;
+        font-size: 20px;
+    }
+
+    .intro-container {
+        margin-top: 6rem;
+    }
+
+    .welcome-span {
+        font-size: 18px;
+    }
+
+/*===========================
+       Starting page
+============================*/
+
+    .text-img-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .starting-img {
+        max-width: 40%;
+    }
+
+    .text-content {
+        margin-right: 20px;
     }
 }
 
@@ -126,18 +273,67 @@ p {
     }
     
     h2 {
-        font-size: 20px;
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
     }
 
 /*===========================
    Navbar and main image
 ============================*/
 
-    .img {
-        height: 40rem;
+    .ahref {
+        font-size: 16px;
     }
 
     .hero1-content {
-        margin-top: -34rem;
+        margin-top: -48rem;
+    }
+
+    .hero1-h2 {
+        margin-top: 24rem;
+        margin-left: -16rem;
+        font-size: 24px;
+    }
+
+    .intro-container {
+        margin-top: 10rem;
+    }
+
+    .welcome-span {
+        font-size: 20px;
+    }
+
+/*===========================
+       Starting page
+============================*/
+
+    .starting-img {
+        max-width: 60%;
     }
 }
+
+@media screen and (min-width: 1200px) { 
+    /*===========================
+   Navbar and main image
+============================*/
+
+    .hero1-content {
+        margin-top: -58rem;
+    }
+
+    .hero1-h2 {
+        margin-top: 32rem;
+        margin-left: -16rem;
+        font-size: 24px;
+    }
+
+    .intro-container {
+        margin-top: 12rem;
+    }
+
+
+    }
+

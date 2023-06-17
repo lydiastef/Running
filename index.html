@@ -8,24 +8,53 @@
     <title>Running</title>
 </head>
 <body>
-    <!--Navbar-->
-    <nav>
-        <div id="navbarPlaceholder"></div>
-    </nav>
+    <header>
+        <!--Navbar-->
+        <nav>
+            <div id="navbarPlaceholder"></div>
+        </nav>
 
-    <!--Hero1-->
-    <section class="hero1">
-        <img class="img" src="./IMG_20220716_100121232-min.jpg" alt="">
-        <div class="hero1-content">
-            <h1 class="hero1-h1">Discover the Thrill <br> of Running</h1>
-            <h2 class="hero1-h2">Explore the World of Endurance <br> and Achieve Your Fitness Goals</h2>
-        </div>
-    </section>
+        <!--Hero1-->
+        <section class="hero1">
+            <img class="hero1-img" src="./Images/IMG_20220716_100121232-min.jpg" alt="">
+            <div class="hero1-content">
+                <h1 class="hero1-h1">Discover the Thrill <br> of Running</h1>
+                <h2 class="hero1-h2">Explore the World of Endurance and Achieve Your Fitness Goals</h2>
+            </div>
+            <div class="intro-container">
+                <div class="intro-box">
+                    <p class="introbox-text"><span class="welcome-span">Welcome to the joy of running!</span> <br>
+                        Whether you prefer the urban energy of road running or getting into 
+                        nature for the trails, running offers a huge variety of benefits 
+                        for your mind and body.</p><br><br>
+                </div>
+            </div>
+            <div class="intro-text">      
+                <p class="intro-text">Road running, generally with smooth and predictable surfaces, 
+                is a more fast-paced endeavor that takes you through neighborhoods 
+                and scenic routes and is great for speedwork and endurance training.<br><br>
+                Trail running, on the other hand, takes you to explore nature's 
+                wonders, into serene forests, majestic mountains, and tranquil parks. 
+                The terrain is generally uneven, it can be anything from simple flat forest trails 
+                to very technical trails on steep mountain sides with rocks, loose 
+                gravel, grass or mud. The varying landscapes will train your agility, balance, 
+                and mental focus, while allowing you to revel in the beauty of the amazing outdoors.<br><br>
+                Running is a gateway to improved fitness, stress relief, personal growth and the 
+                exhilaration of overcoming challenges. So, put on your running shoes and 
+                embrace the journey ahead, filled with adventure and self-discovery.</p>
+            </div>
+        </section>
+    </header>
 
     <!--Hero2-Blogposts-->
     <section class="hero2">
         <a class="starting-link" href="./Blog Posts/starting.html">Starting out</a>
     </section>
+
+    <!--footer-->
+    <footer>
+        <div id="footerPlaceholder"></div>
+    </footer>
 
     <!--JS to fetch the navbar page-->
     <script>
@@ -34,6 +63,16 @@
           .then(html => {
             const navbarPlaceholder = document.getElementById('navbarPlaceholder'); // Replace 'navbar-container' with the ID of the element where you want to insert the navbar
             navbarPlaceholder.innerHTML = html;
+          });
+      </script>
+
+      <!--JS to fetch the footer page-->
+    <script>
+        fetch('./Blog Posts/footer.html')
+          .then(response => response.text())
+          .then(html => {
+            const footerPlaceholder = document.getElementById('footerPlaceholder'); // Replace 'navbar-container' with the ID of the element where you want to insert the navbar
+            footerPlaceholder.innerHTML = html;
           });
       </script>
     
