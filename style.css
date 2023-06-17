@@ -88,6 +88,37 @@ p {
          Main image
 ============================*/
 
+.coming-soon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: solid #586333;
+}
+
+.coming-soon-h1 {
+    font-size: 36px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    animation: colorChange 3s infinite;
+}
+
+@keyframes colorChange {
+    0% {color: black;}
+    50% {color: #FF7F50;} 
+    100% {color: black;}
+
+    /*0% { color: #FF7F50; }
+    50% { color: purple; }
+    100% { color: #008080; }*/
+  }
+
+.coming-soon-p {
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
 .hero1-img {
     display: flex;
     margin: 0 auto 2rem auto;
@@ -208,6 +239,7 @@ p {
     align-items: center;
     justify-content: center;
     padding-top: 1rem;
+    font-size: 12px;
 }
 
 @media screen and (min-width: 750px) { 
