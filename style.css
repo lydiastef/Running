@@ -19,16 +19,43 @@ h1 {
 
 h2 {
     font-size: 16px;
-    margin: 25px 0 5px 0;
+    margin: 2rem 0 .8rem 0;
     letter-spacing: 0.6px;
 }
 
-p {
+h3 {
+    text-align: center;
+    font-size: 18px;
+    margin: 3rem 0 1rem 0;
+}
+
+p, ol {
     font-size: 12px;
     line-height: 23px;
     letter-spacing: 0.6px;
     font-weight: 100;
 }
+
+ul.bullet {
+    list-style-type: none; /* Remove default bullets */
+  }
+  
+  ul.bullet li {
+    position: relative;
+  }
+  
+  ul.bullet li:before {
+    content: ''; 
+    position: absolute; 
+    left: -1rem; 
+    top: 8%; /* Vertically center the pseudo-element */
+    width: 7px; 
+    height: 7px; 
+    border-radius: 50%;
+    border: 1px solid black;     
+    background-color: #e9ede5; 
+  }
+  
 
 /*===========================
            Navbar
@@ -108,11 +135,7 @@ p {
     0% {color: black;}
     50% {color: #FF7F50;} 
     100% {color: black;}
-
-    /*0% { color: #FF7F50; }
-    50% { color: purple; }
-    100% { color: #008080; }*/
-  }
+}
 
 .coming-soon-p {
     font-size: 20px;
@@ -182,26 +205,25 @@ p {
 }
 
 .introbox-text {
-    background: white;
     margin-bottom: -2.5rem;
 }
 
-.intro-text {
+.intro-text-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem auto;
-    width: 90%;
+    margin: 1rem 4rem 1rem 4rem;
 }
 
-.hero2 {
+.blog-post-container {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-top: 4rem;
+    justify-content: space-between;
+    margin-top: 3rem;
 }
 
-.starting-link {
+.blog-post-container a {
+    margin: 0 4rem 0 4rem;
     text-decoration: none;
     color: black;
 }
@@ -210,16 +232,15 @@ p {
           Blog posts
 ============================*/
 
-.text-content {
+.blog-post-h1 {
+    margin: 4rem;
+}
+.blog-post {
     margin-bottom: 1.5rem;
 }
 
 .starting-img {
     max-width: 100%;
-}
-
-.starting-article {
-    margin: 3rem;
 }
 
 /*===========================
@@ -232,6 +253,7 @@ p {
     background: #586333;
     color: white;
     margin: 2rem 0 0 0;
+    z-index: -1;
 }
 
 .footer-text {
@@ -240,6 +262,21 @@ p {
     justify-content: center;
     padding-top: 1rem;
     font-size: 12px;
+}
+
+.disclaimer-link {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-decoration: none;
+    color: white;
+    z-index: 1;
+    margin: -4rem 2rem 0 0;
+    font-size: 12px;
+}
+
+.disclaimer {
+    margin: 4rem;
 }
 
 @media screen and (min-width: 750px) { 
