@@ -231,6 +231,71 @@ ul.bullet {
 }
 
 /*===========================
+          Converter
+============================*/
+
+.converter-h1 {
+    margin-top: 2rem;
+}
+
+.converter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.converter-boxes {
+    display: flex;
+    align-items: center;
+}
+
+#distanceInput, .converter-btn {
+    margin: 0 .3rem 1rem 0;
+    padding: .6rem;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.converter-btn {
+    background: #586333;
+    color: white;
+}
+
+.converter-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+/*Dot*/
+.converter-input input[type="radio"] {
+    display: none;
+  }
+  
+  .converter-input label {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+  }
+  
+  .converter-input label::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1.5px solid #586333;
+  }
+  
+  .converter-input input[type="radio"]:checked + label::before {
+    background-color: #586333;
+  }
+  
+/*===========================
           Blog posts
 ============================*/
 

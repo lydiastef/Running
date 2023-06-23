@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GENKRC4W5V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GENKRC4W5V');
+</script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Converter</title>
+</head>
+<body>
+    <div id="navbarPlaceholder"></div>
+
+    <div class="blog-post-h1">
+        <h1>Welcome to the Distance Converter!</h1>
+        <p>Are you planning a run in a different country? Or maybe you're 
+            curious about the equivalent distance in kilometers or miles? 
+            Look no further! Our Distance Converter tool is here to help you 
+            easily convert distances between miles and kilometers.</p>
+    </div>
+
+<h1 class="converter-h1">Distance Converter</h1>
+<div class="converter-container">
+    <div class="converter-boxes">
+        <input type="number" id="distanceInput" placeholder="Enter distance">
+        <button class="converter-btn" onclick="convertDistance()">Convert</button><br>
+    </div>
+
+    <div class="converter-input">
+        <input type="radio" id="mileRadio" name="conversion" value="mile" checked onchange="convertDistance()">
+        <label for="mileRadio">Miles to Kilometers</label>
+      </div>
+      <div class="converter-input">
+        <input type="radio" id="kmRadio" name="conversion" value="km" onchange="convertDistance()">
+        <label for="kmRadio">Kilometers to Miles</label>
+      </div>
+    <p id="result"></p>
+</div>
+
+
+<div class="blog-post-h1">
+    <h2>How to Use the Distance Converter</h2>
+    <ol>
+        <li><p>Enter the distance in the input field. You can input the value in either 
+            miles or kilometers.</p></li>
+        <li><p>Select the desired conversion direction using the radio buttons: S
+            Miles to Kilometers: Converts miles to kilometers.
+            Kilometers to Miles: Converts kilometers to miles.</p></li>
+    </ol>
+            
+            <p>Click the "Convert" button, and the result will be displayed below the button.<br><br>
+            
+            <h2>Why Use the Distance Converter?</h2>
+            <p>Knowing the equivalent distances in different units can be extremely useful 
+            for runners, especially when planning routes, tracking progress, or comparing 
+            race distances.<br> Our Distance Converter eliminates the hassle of manual calculations 
+            and provides you with accurate and instant results.
+            <br>Whether you prefer measuring your running distances in miles or kilometers, 
+            our converter ensures you have the conversion at your fingertips. It's a valuable 
+            tool for both beginners and seasoned runners, offering convenience and efficiency 
+            in a single click.<br><br>
+            Happy converting, and enjoy your runs wherever they may take you!</p>
+</div>
+
+<!--footer-->
+<footer>
+    <div id="footerPlaceholder"></div>
+</footer>
+
+      <!--JS to fetch the navbar-->
+<script>
+    fetch('./Blog Posts/navbar.html')
+      .then(response => response.text())
+      .then(html => {
+        const navbarPlaceholder = document.getElementById('navbarPlaceholder');
+        navbarPlaceholder.innerHTML = html;
+      });
+</script>
+
+  <!--JS to fetch the footer-->
+<script>
+    fetch('./Blog Posts/footer.html')
+      .then(response => response.text())
+      .then(html => {
+        const footerPlaceholder = document.getElementById('footerPlaceholder');
+        footerPlaceholder.innerHTML = html;
+      });
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>
