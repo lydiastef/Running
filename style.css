@@ -224,15 +224,20 @@ ul.bullet {
 
 .blog-post-container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     margin-top: 3rem;
 }
 
 .blog-post-container a {
-    margin: 0 4rem 0 4rem;
+    display: flex;
     text-decoration: none;
     color: black;
+}
+
+.blog-post-container a {
+    margin: 2rem 4rem 2rem 4rem;
 }
 
 /*===========================
