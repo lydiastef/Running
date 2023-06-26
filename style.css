@@ -379,6 +379,7 @@ th, td {
     border: 1px solid black;
     padding: 8px;
     text-align: center;
+    font-size: 12px;
 }
 
 /*===========================
@@ -511,6 +512,10 @@ footer {
 
 .shoe-text {
     margin-left: 1rem;
+}
+
+th, td {
+    font-size: 14px;
 }
 
 }
