@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GENKRC4W5V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GENKRC4W5V');
+</script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>About</title>
+</head>
+<body>
+    <div id="navbarPlaceholder"></div>
+
+    <article>
+        <div class="about">
+            <div class="about-text">
+                <h1 class="about-h1">About Me</h1>
+                <p class="about-p">Welcome to my running website!<br><br> 
+                My name is Lydia and I am an avid runner with a deep passion for marathon and ultra marathon distances. I find joy in every run, 
+                whether it's hitting the road, exploring the trails, or conquering mountains.<br> 
+                As a dedicated runner myself, I understand the challenges, triumphs, and the sheer exhilaration that 
+                comes with pushing our limits.<br> 
+                Currently, I'm pursuing certification as a running coach to share my knowledge and experience with others.<br> 
+                On this platform, I aim to provide valuable insights, training tips, and useful information to help you enhance 
+                your running journey. Join me as we embrace the transformative power of running together.</p>
+            </div>
+            <div class="about-img-div">
+                <img class="about-img" src="/Images/IMG_20220702_142949206-min.jpg" alt="Me running in mountains">
+            </div>
+        </div>
+
+    </article>
+      
+
+ <!--footer-->
+ <footer>
+    <div id="footerPlaceholder"></div>
+</footer>
+
+      <!--JS to fetch the navbar-->
+<script>
+    fetch('./navbar.html')
+      .then(response => response.text())
+      .then(html => {
+        const navbarPlaceholder = document.getElementById('navbarPlaceholder');
+        navbarPlaceholder.innerHTML = html;
+      });
+</script>
+
+  <!--JS to fetch the footer-->
+<script>
+    fetch('./footer.html')
+      .then(response => response.text())
+      .then(html => {
+        const footerPlaceholder = document.getElementById('footerPlaceholder'); // Replace 'navbar-container' with the ID of the element where you want to insert the navbar
+        footerPlaceholder.innerHTML = html;
+      });
+  </script>
+</body>
+</html>
