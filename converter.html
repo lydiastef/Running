@@ -21,21 +21,26 @@
     <div id="navbarPlaceholder"></div>
 
     <div class="blog-post-h1">
-        <h1>Welcome to the Distance Converter!</h1>
-        <p>Are you planning a run in a different country? Or maybe you're 
-            curious about the equivalent distance in kilometers or miles? 
-            Look no further! Our Distance Converter tool is here to help you 
-            easily convert distances between miles and kilometers.</p>
+        <h1>Welcome to the Distance and Elevation Converter!</h1>
+        <p>Are you planning a run in a different country? Or perhaps you're curious 
+          about the equivalent distance in miles or kilometers? Maybe you're also 
+          looking to convert elevations between feet and meters? Look no further! 
+          Our Distance and Elevation Converter tool is here to assist you in 
+          effortlessly converting distances between miles and kilometers, as well 
+          as elevations between feet and meters. Stay prepared and make accurate 
+          conversions with ease using our convenient converter tool.</p>
     </div>
-
-<h1 class="converter-h1">Distance Converter</h1>
-<div class="converter-container">
-    <div class="converter-boxes">
+<div class="converters">
+  <div class="distance-converter">
+    <!-- Distance Converter -->
+    <h1 class="converter-h1">Distance Converter</h1>
+    <div class="converter-container">
+      <div class="converter-boxes">
         <input type="number" id="distanceInput" placeholder="Enter distance">
         <button class="converter-btn" onclick="convertDistance()">Convert</button><br>
-    </div>
+      </div>
 
-    <div class="converter-input">
+      <div class="converter-input">
         <input type="radio" id="mileRadio" name="conversion" value="mile" checked onchange="convertDistance()">
         <label for="mileRadio">Miles to Kilometers</label>
       </div>
@@ -43,28 +48,56 @@
         <input type="radio" id="kmRadio" name="conversion" value="km" onchange="convertDistance()">
         <label for="kmRadio">Kilometers to Miles</label>
       </div>
-    <p id="result"></p>
+      <p id="distanceResult"></p>
+    </div>
+  </div>
+
+  <div class="elevation-converter">
+    <!-- Elevation Converter -->
+    <h1 class="converter-h1">Elevation Converter</h1>
+    <div class="converter-container">
+      <div class="converter-boxes">
+        <input type="number" id="feetInput" placeholder="Enter feet">
+        <button class="elevation-btn" onclick="convertElevation()">Convert</button><br>
+      </div>
+
+      <div class="converter-input">
+        <input type="radio" id="meterRadio" name="conversion" value="meter" checked onchange="convertElevation()">
+        <label for="meterRadio">Feet to Meters</label>
+      </div>
+      <div class="converter-input">
+        <input type="radio" id="feetRadio" name="conversion" value="feet" onchange="convertElevation()">
+        <label for="feetRadio">Meters to Feet</label>
+      </div>
+      <p id="elevationResult"></p>
+    </div>
+  </div>
 </div>
 
 
+<!--Blog Post-->
 <div class="blog-post-h1">
-    <h2>How to Use the Distance Converter</h2>
+    <h2>How to Use the Converters</h2>
     <ol>
-        <li><p>Enter the distance in the input field. You can input the value in either 
-            miles or kilometers.</p></li>
-        <li><p>Select the desired conversion direction using the radio buttons: S
-            Miles to Kilometers: Converts miles to kilometers.
-            Kilometers to Miles: Converts kilometers to miles.</p></li>
+        <li><p>Enter the distance or elevation in the input field. You can input the distance value in either 
+            miles or kilometers and the eleveation value in either feet og meters.</p></li>
+        <li><p>Select the desired conversion direction using the dots:
+            Miles to Kilometers: Converts miles to kilometers.<br>
+            Kilometers to Miles: Converts kilometers to miles.<br>
+            Feet to Meters: Converts feets to meters.<br>
+            Meters to Feet: Converts meters to feet.</p></li>
     </ol>
             
             <p>Click the "Convert" button, and the result will be displayed below the button.<br><br>
             
-            <h2>Why Use the Distance Converter?</h2>
+            <h2>Why Use the Distance and Elevation Converter?</h2>
             <p>Knowing the equivalent distances in different units can be extremely useful 
             for runners, especially when planning routes, tracking progress, or comparing 
-            race distances.<br> Our Distance Converter eliminates the hassle of manual calculations 
-            and provides you with accurate and instant results.
-            <br>Whether you prefer measuring your running distances in miles or kilometers, 
+            race distances. The same goes for elevation gain to know how hilly and challenging a 
+            route can be.<br> 
+            Our converters eliminates the hassle of manual calculations and provides you 
+            with accurate and instant results.<br>
+            Whether you prefer measuring your running distances in miles or kilometers and elevation in feet or meters, 
             our converter ensures you have the conversion at your fingertips. It's a valuable 
             tool for both beginners and seasoned runners, offering convenience and efficiency 
             in a single click.<br><br>
