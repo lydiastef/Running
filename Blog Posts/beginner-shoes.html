@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GENKRC4W5V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GENKRC4W5V');
+</script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="../style.css">
+    <title>Running Shoes for Beginners</title>
+</head>
+<body>
+    <div id="navbarPlaceholder"></div>
+
+    <article>
+        <div class="blog-post">
+            <div class="beg-shoe-container">
+                <h1>The Best Running Shoes for Beginners: Start Your Journey on the Right Foot
+                </h1>
+                <h2>Introduction</h2>
+                <p class="beg-shoe-p">Starting a running journey as a beginner can be both exciting and overwhelming. One of the most 
+                    critical decisions you'll make is choosing the right pair of running shoes. The right shoes can 
+                    enhance your comfort, prevent injuries, and provide the necessary support as you progress on your 
+                    running path. In this article, we will look into some of the best running shoes specifically 
+                    designed for beginners, ensuring a smooth and enjoyable start to your running adventure</p>
+
+                <h2>Considerations before you buy running shoes</h2>
+                <ul>
+                    <li><h3 class="ol-h3">Comfort is Key:</h3><p class="ol-p">When starting your running journey, prioritize comfort above all else. 
+                            Look for shoes that fit well, allowing room for your toes to move freely. A snug, but not 
+                            tight, fit around the heel and midfoot is essential to prevent slippage and ensure stability. 
+                            Consider trying on different brands and models to find the perfect fit for your feet.</p></li>
+                        <li><h3 class="ol-h3">Cushioning for Impact Absorption:</h3><p class="ol-p">As a beginner, your body may need some time to 
+                            adjust to the impact of running. Choose running shoes that provide ample cushioning to effectively absorb 
+                            shock and minimize the impact on your joints. Cushioned shoes provide a softer landing, making your runs 
+                            more comfortable and minimizing the risk of impact-related injuries.</p></li>
+                        <li><h3 class="ol-h3">Versatile and Neutral Shoes:</h3><p class="ol-p">When starting out, it's generally recommended to choose 
+                            neutral running shoes. These shoes offer a balanced level of cushioning and support, catering to a wide 
+                            range of foot types. They don't impose excessive stability features or pronation control, allowing your 
+                            feet to naturally adapt and develop strength over time.</p></li>
+                        <li><h3 class="ol-h3">Visit a Specialty Running Store:</h3><p class="ol-p">Consider visiting a specialty running store where experts 
+                            can assess your gait and foot biomechanics. They can offer valuable guidance and recommendations based on your 
+                            individual needs. Professional advice can be particularly beneficial for beginners who are unsure about their 
+                            running shoe requirements.</p></li>
+                        <li><h3 class="ol-h3"> Transition:</h3><p class="ol-p">If you've been inactive or have never worn running shoes before, it's 
+                            important to transition gradually. Start with shorter runs and gradually increase your mileage as your body 
+                            adjusts to the new activity. This gradual approach allows your muscles, tendons, and ligaments to adapt and 
+                            minimize the risk of overuse injuries.</p></li>
+                    </ul>
+                </div>
+        </div>
+    </article>
+
+
+
+
+<!--footer-->
+<footer>
+    <div id="footerPlaceholder"></div>
+</footer>
+
+      <!--JS to fetch the navbar-->
+<script>
+    fetch('./navbar.html')
+      .then(response => response.text())
+      .then(html => {
+        const navbarPlaceholder = document.getElementById('navbarPlaceholder');
+        navbarPlaceholder.innerHTML = html;
+      });
+</script>
+
+  <!--JS to fetch the footer-->
+<script>
+    fetch('./footer.html')
+      .then(response => response.text())
+      .then(html => {
+        const footerPlaceholder = document.getElementById('footerPlaceholder'); // Replace 'navbar-container' with the ID of the element where you want to insert the navbar
+        footerPlaceholder.innerHTML = html;
+      });
+  </script>
+</body>
+</html>

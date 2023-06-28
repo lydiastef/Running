@@ -16,51 +16,33 @@ h1 {
     letter-spacing: 0.8px;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 2.5rem;
+    margin: 2.5rem;
 }
 
 h2 {
     font-size: 16px;
-    margin: 2rem 0 .8rem 0;
+    margin: 3rem 2rem .8rem 2rem;
     letter-spacing: 0.6px;
 }
 
 h3 {
     font-size: 14px;
-    margin: 2rem 0 0 0;
+    margin: 2rem 2.5rem 0 2.5rem;
 }
 
-p, ol {
+p, ol, ul {
     font-size: 12px;
     line-height: 23px;
     letter-spacing: 0.6px;
     font-weight: 100;
-    margin: 1.5rem 0 1.5rem 0;
+    margin-left: 2rem;
 }
 
 ol {
     font-size: 16px;
 }
 
-ul.bullet {
-    list-style-type: none; /* Remove default bullets */
-  }
-  
-  ul.bullet li {
-    position: relative;
-  }
-  
-  ul.bullet li:before {
-    content: ''; 
-    position: absolute; 
-    left: -1rem; 
-    top: 8%; /* Vertically center the pseudo-element */
-    width: 7px; 
-    height: 7px; 
-    border-radius: 50%;
-    border: 1px solid black;     
-    background-color: #e9ede5; 
-  }
+
   
 
 /*===========================
@@ -364,7 +346,15 @@ ul.bullet {
     align-items: center;
 }
 .blog-post {
-    margin: 4rem;
+    margin: 2rem;
+}
+
+.ol-h3 {
+    margin-left: 0.5rem;
+}
+
+.ol-p {
+    margin: 0.5rem 3rem 1.5rem 0.5rem;
 }
 
 .starting-img {
@@ -411,6 +401,10 @@ th, td {
     padding: 8px;
     text-align: center;
     font-size: 12px;
+}
+
+.beg-shoe-p {
+    margin: 1.5rem 3rem 1.5rem 3rem;
 }
 
 /*===========================
