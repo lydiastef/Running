@@ -14,36 +14,52 @@ body {
 h1 {
     font-size: 20px;
     letter-spacing: 0.8px;
+    line-height: 30px;
     text-transform: uppercase;
     text-align: center;
-    margin: 2.5rem;
+    margin: 3rem;
 }
 
 h2 {
     font-size: 16px;
-    margin: 3rem 2rem .8rem 2rem;
+    margin: 3rem 3rem 1.5rem 3rem;
     letter-spacing: 0.6px;
+}
+
+.list-h2 {
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.starting-h2 {
+    margin-bottom: -2rem;
 }
 
 h3 {
     font-size: 14px;
-    margin: 2rem 2.5rem 0 2.5rem;
+    margin: 2rem 2.5rem 0 3rem;
+}
+
+.list-h3 {
+    margin-left: 0;
 }
 
 p, ol, ul {
     font-size: 12px;
     line-height: 23px;
     letter-spacing: 0.6px;
-    font-weight: 100;
-    margin-left: 2rem;
+    margin: 3rem 3rem 2rem 3rem;
 }
 
 ol {
     font-size: 16px;
 }
 
+.list-p {
+    margin-left: 0;
+    margin-top: 1rem;
+}
 
-  
 
 /*===========================
            Navbar
@@ -341,35 +357,14 @@ ol {
           Blog posts
 ============================*/
 
-.blog-post-h1 {
-    margin: 4rem;
-    align-items: center;
-}
-.blog-post {
-    margin: 2rem;
-}
-
-.ol-h3 {
-    margin-left: 0.5rem;
-}
-
-.ol-p {
-    margin: 0.5rem 3rem 1.5rem 0.5rem;
-}
-
 .starting-img {
-    max-width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    max-width: 82%;
 }
 
 /*7-gear-items*/
-.gear-h2 {
-    margin-bottom: -1rem;
-}
-
-.example-h2 {
-    text-align: center;
-    margin: -1rem 0 3rem 0;
-}
 
 .img-and-text img {
     margin-top: 1rem;
@@ -379,22 +374,15 @@ ol {
     font-size: 10px;
 }
 
-.shoe-text {
-    margin: .5rem 0 3rem 0;
-}
-
 .shoe-link2 {
     color: black;
     font-weight: bold;
 }
 
-.beginner-marathon-h3 {
-    margin-bottom: -1rem;
-}
-
 table {
+    margin: auto;
     border-collapse: collapse;
-    width: 100%;
+    width: 82%;
 }
 th, td {
     border: 1px solid black;
