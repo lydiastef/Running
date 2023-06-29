@@ -60,6 +60,12 @@ ol {
     margin-top: 1rem;
 }
 
+.list-p-amz {
+    margin-left: 0;
+    margin-top: 1rem;
+    margin-bottom: -0.5rem;
+}
+
 
 /*===========================
            Navbar
@@ -365,17 +371,35 @@ ol {
 
 /*7-gear-items*/
 
-.img-and-text img {
-    margin-top: 1rem;
+.img-and-text-beg-shoes {
+    display: flex;
+    align-items: center;
 }
 
-.img-and-text img[alt] {
+.flex-shoes-w, .flex-shoes-m {
+    flex: 1;
+    text-align: center;
+}
+
+.flex-shoes-w img, .flex-shoes-m img {
+    margin-top: -1rem;
+}
+
+.flex-shoes-w .alt-text, .flex-shoes-m .alt-text {
+    text-align: center;
     font-size: 10px;
+    margin-top: -0.5rem;
 }
 
 .shoe-link2 {
     color: black;
     font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.shoe-link2:hover {
+    text-decoration: underline;
 }
 
 table {
@@ -392,6 +416,10 @@ th, td {
 
 .beg-shoe-p {
     margin: 1.5rem 3rem 1.5rem 3rem;
+}
+
+.beginner-shoes {
+    margin: -1rem auto -1rem auto;
 }
 
 /*===========================
