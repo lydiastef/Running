@@ -19,6 +19,50 @@
 </head>
 <body>
     <nav>
+      <div class="container">
+        <div class="container1">
+          <div class="logo">
+            <a href="../index.html">
+              <img class="logo-img" src="../TAMRA.svg" alt="Running Logo" width="130" height="65">
+            </a>
+          </div>
+          <input type="checkbox" id="menu-toggle" class="menu-toggle">
+          <label for="menu-toggle" class="menu-icon"></label>
+          <div class="ahref-container">
+            <ul class="menu-items">
+              <li><a class="ahref" href="#"><span>Running</span></a></li>
+              <li><a class="ahref" href="#"><span>Gear</span></a></li>
+              <li><a class="ahref" href="#"><span>Races</span></a></li>
+              <li><a class="ahref" href="#"><span>Training Plans</span></a></li>
+              <li><a class="ahref" href="../Blog Posts/about.html"><span>About</span></a></li>
+              <li><a class="ahref" href="../converter.html"><span>Converter</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  
+    <script>
+        const menuToggle = document.querySelector('.menu-icon');
+        const menuItems = document.querySelector('.menu-items');
+      
+        menuToggle.addEventListener('click', function() {
+          menuItems.classList.toggle('show');
+        });
+      
+        // Close the dropdown menu when clicking outside
+        window.addEventListener('click', function(event) {
+          if (!event.target.matches('.menu-icon') && !event.target.matches('.menu-items')) {
+            menuItems.classList.remove('show');
+          }
+        });
+      </script>
+  </body>
+  
+
+<!--
+<body>
+    <nav>
         <div class="container">
             <div class="container1">
                 <div class="logo">
@@ -41,5 +85,5 @@
         </div>
     </nav>
 
-</body>
+</body> -->
 </html>

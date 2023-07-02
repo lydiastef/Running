@@ -39,6 +39,16 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+    const menuToggle = document.getElementById('menu-toggle');
+    const ahrefContainer = document.querySelector('.ahref-container');
+
+    menuToggle.addEventListener('change', function() {
+      if (this.checked) {
+        ahrefContainer.style.display = 'flex';
+      } else {
+        ahrefContainer.style.display = 'none';
+      }
+    });
 
 
 
