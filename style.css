@@ -155,8 +155,6 @@ ol {
 .hero1-img {
     display: flex;
     margin: 0 auto 2rem auto;
-    max-width: 100%;
-    height: auto;
     z-index: -1;
 }
 
