@@ -587,10 +587,11 @@ footer {
 
 .amz-disclaimer {
     width: 33.3%;
-    padding: 0.5rem 1rem;
 }
 
 .amz-p {
+    width: 6rem;
+    margin: 1.5rem 1.5rem 1.5rem 1rem;
     font-size: 10px;
     line-height: 15px;
 }
