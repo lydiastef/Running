@@ -17,15 +17,35 @@
     <meta name="keywords" content="running, road running, trail running, mountain running, running gear, half-marathon, marathon, training plans, running tips, fitness, endurance, runner community, race preparation, injury prevention, race nutrition, race strategies, beginner running, fitness goals, running motivation, long-distance running, race events, cross-training, running shoes.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/aa607b7c52.js" crossorigin="anonymous"></script>    
     <link rel="stylesheet" href="./style.css">
     <title>RunnersVenture</title>
 </head>
 <body>
     <header>
-        <!--Navbar-->
+        <nav>
+            <div class="logo-container">
+              <a href="../index.html">
+                <img class="logo-img" src="../TAMRA.svg" alt="Running Logo" width="130" height="65">
+              </a>      
+            </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="hamburger-btn">
+              <i class="fas fa-bars"></i>
+            </label>
+              <ul class="nav-list">
+                <li><a class="ahref" href="#"><span>Running</span></a></li>
+                <li><a class="ahref" href="#"><span>Gear</span></a></li>
+                <li><a class="ahref" href="#"><span>Races</span></a></li>
+                <li><a class="ahref" href="#"><span>Training Plans</span></a></li>
+                <li><a class="ahref" href="../Blog Posts/about.html"><span>About</span></a></li>
+                <li><a class="ahref" href="../converter.html"><span>Converter</span></a></li>
+              </ul>
+          </nav>
+        <!--Navbar
         <nav>
             <div id="navbarPlaceholder"></div>
-        </nav>
+        </nav>-->
 
         <!--Hero1-->
         <div class="coming-soon">
@@ -111,7 +131,7 @@
         <div id="footerPlaceholder"></div>
     </footer>
 
-    <!--JS to fetch the navbar page-->
+    <!--JS to fetch the navbar page
     <script>
         fetch('./Blog Posts/navbar.html')
           .then(response => response.text())
@@ -119,7 +139,7 @@
             const navbarPlaceholder = document.getElementById('navbarPlaceholder'); // Replace 'navbar-container' with the ID of the element where you want to insert the navbar
             navbarPlaceholder.innerHTML = html;
           });
-      </script>
+      </script>-->
 
       <!--JS to fetch the footer page-->
     <script>
