@@ -83,6 +83,7 @@ nav {
     align-items: center;
     width: auto;
     margin: 0;
+    z-index: 9999;
 }
 
 .logo {
@@ -112,6 +113,7 @@ nav {
     justify-content: center;
     align-items: center;
     box-shadow: 5px 8px 12px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
 }
 
 .nav-list li {
@@ -125,7 +127,7 @@ nav {
     border-bottom: solid rgba(0, 0, 0, 0.062);
 }
 
-.nav-list li a {
+.nav-list li a{
     position: relative;
     color: white;
     font-size: 14px;
