@@ -157,10 +157,9 @@ nav {
     width: 100%;
 }
 
-.hamburger-btn {
+.hamburger-btn, .fas.fa-bars {
     display: block;
-    position: relative;
-    z-index: 1;
+    z-index: 9999;
     font-size: 30px;
     color: white;
     float: right;
