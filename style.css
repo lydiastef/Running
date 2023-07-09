@@ -116,7 +116,7 @@ nav {
     justify-content: center;
     align-items: center;
     box-shadow: 5px 8px 12px rgba(0, 0, 0, 0.5);
-    z-index: 9999;
+    z-index: 9998;
 }
 
 .nav-list li {
