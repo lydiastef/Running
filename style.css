@@ -30,10 +30,6 @@ h2 {
     margin-top: 3rem;
 }
 
-.starting-h2 {
-    margin-bottom: -2rem;
-}
-
 h3 {
     font-size: 14px;
     margin: 2rem 2.5rem 0 3rem;
@@ -288,7 +284,7 @@ nav {
     z-index: -1;
     position: absolute;
     width: 100vh;
-    height: 70vh;
+    height: 75vh;
 }
 
 .hero1-content {
@@ -495,9 +491,9 @@ nav {
 
 .starting-img {
     display: flex;
-    margin: auto;
+    margin: 2rem 4rem auto auto;
     margin-top: 2rem;
-    max-width: 82%;
+    width: 100vh;
 }
 
 /*7-gear-items*/
@@ -828,9 +824,10 @@ th, td {
 
 @media screen and (min-width: 1000px) { 
     h1 {
-        font-size: 30px;
+        font-size: 34px;
         margin-left: 10rem;
         margin-right: 10rem;
+        line-height: 60px;
     }
     
     h2 {
@@ -875,13 +872,6 @@ th, td {
         font-size: 20px;
     }
 
-/*===========================
-       Starting page
-============================*/
-
-    .starting-img {
-        max-width: 60%;
-    }
 }
 
 @media screen and (min-width: 1200px) { 
