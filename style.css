@@ -283,7 +283,7 @@ nav {
     margin: 19rem auto 2rem auto;
     z-index: -1;
     position: absolute;
-    width: 100vh;
+    width: 115vh;
     height: 75vh;
 }
 
@@ -615,8 +615,8 @@ footer {
 
 .hero1-img {
     margin: 19rem auto 2rem auto;
-    width: 140vh;
-    height: 100vh;
+    width: 170vh;
+    height: 110vh;
 }
 
 .hero1-h1 {
@@ -690,8 +690,8 @@ footer {
 
     .hero1-img {
         margin: 19rem auto 2rem auto;
-        width: 140vh;
-        height: 100vh;
+        width: 170vh;
+        height: 110vh;
     }
 
     .hero1-h2 {
@@ -780,8 +780,8 @@ th, td {
 
     .hero1-img {
         margin: 19rem auto 2rem auto;
-        width: 170vh;
-        height: 130vh;
+        width: 190vh;
+        height: 140vh;
     }
 
     .hero1-h2 {
@@ -848,8 +848,8 @@ th, td {
 
 
 .hero1-img {
-    width: 200vh;
-    height: 160vh;
+    width: 220vh;
+    height: 170vh;
 }
 
 .hero1-h1 {
@@ -880,8 +880,8 @@ th, td {
 ============================*/
 
 .hero1-img {
-    width: 220vh;
-    height: 170vh;
+    width: 240vh;
+    height: 180vh;
 }
 
 .hero1-h1 {
