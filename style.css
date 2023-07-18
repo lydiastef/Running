@@ -16,7 +16,7 @@ h1 {
     letter-spacing: 0.8px;
     line-height: 30px;
     text-align: center;
-    margin: 3rem 5rem 3rem 5rem;
+    margin: 3rem;
 }
 
 h2 {
@@ -52,7 +52,7 @@ ol {
 }
 
 .list-p {
-    margin-left: 0;
+    margin: auto 0 auto 0;
     margin-top: 1rem;
 }
 
@@ -98,6 +98,7 @@ nav {
     width: auto;
     margin: 0;
     z-index: 9999;
+    position: relative;
 }
 
 .logo {
@@ -172,7 +173,7 @@ nav {
     color: white;
     float: right;
     line-height: 75px;
-    margin-right: 40px;
+    margin-right: 20px;
     cursor: pointer;
 }
 
@@ -225,8 +226,7 @@ nav {
     margin: 19rem auto 2rem auto;
     z-index: -1;
     position: absolute;
-    width: 115vh;
-    height: 75vh;
+    width: 100%;
 }
 
 .hero1-content {
@@ -241,7 +241,7 @@ nav {
 }
 
 .hero1-h1 {
-    margin-top: 20.5rem;
+    margin-top: 20rem;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
@@ -260,8 +260,8 @@ nav {
 
 .hero1-h2 {
     text-align: left;
-    margin-top: -3rem;
-    margin-left: 6.5rem;
+    margin-top: 0rem;
+    text-align: center;
     padding-bottom: 1rem;
     font-weight: 100;
     font-size: 16px;
@@ -315,7 +315,7 @@ form button {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem auto;
+    margin: 0 auto 1rem auto;
     width: 80%;
     border-radius: 8px;
     box-shadow: 5px 8px 12px rgba(0, 0, 0, 0.5);
@@ -504,11 +504,11 @@ form button {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-.starting-img {
+.blogpost-img1 {
     display: flex;
-    margin: 2rem 4rem auto auto;
+    margin: 2rem 3rem auto 3rem;
     margin-top: 2rem;
-    width: 100vh;
+    width: 36vh;
 }
 
 /*7-gear-items*/
@@ -547,8 +547,9 @@ form button {
 table {
     margin: auto;
     border-collapse: collapse;
-    width: 82%;
+    width: 76%;
 }
+
 th, td {
     border: 1px solid black;
     padding: 8px;
@@ -655,8 +656,6 @@ footer {
 
 .hero1-img {
     margin: 19rem auto 2rem auto;
-    width: 170vh;
-    height: 110vh;
 }
 
 .hero1-h1 {
@@ -732,6 +731,14 @@ footer {
         margin-left: 0;
     }
 
+    .intro-p {
+        margin: 1rem 0 3rem 4rem;   
+    }
+
+    .blogpost-img1 {
+        margin-top: 1rem;
+    }
+
 /*===========================
    Navbar and main image
 ============================*/
@@ -742,18 +749,21 @@ footer {
 
     .hero1-img {
         margin: 19rem auto 2rem auto;
-        width: 170vh;
-        height: 110vh;
+    }
+
+    .hero1-h1 {
+        font-size: 36px;
+        line-height: 60px;
     }
 
     .hero1-h2 {
-        margin-top: 16rem;
-        margin-left: 10rem;
-        font-size: 20px;
+        margin: 6rem auto;
+        font-size: 24px;
+        line-height: 36px;
     }
 
     .intro-container {
-        margin-top: 2rem;
+        margin-bottom: 3rem;
     }
 
     .welcome-span {
@@ -848,14 +858,18 @@ th, td {
     margin-top: 2rem;
 }
 
+/*Marathons for beginners*/
+
+table {
+    width: 84%;
+}
+
 }
 
 @media screen and (min-width: 925px) { 
 
     .hero1-img {
         margin: 19rem auto 2rem auto;
-        width: 190vh;
-        height: 140vh;
     }
 
     .hero1-h2 {
@@ -921,26 +935,20 @@ th, td {
    Navbar and main image
 ============================*/
 
-
-.hero1-img {
-    width: 220vh;
-    height: 170vh;
-}
-
 .hero1-h1 {
     margin-top: 22rem;
     font-size: 30px;
 }
 
 .hero1-h2 {
-    margin-top: 30rem;
-    margin-left: 6rem;
+    margin-top: 18rem;
+    margin-left: 16rem;
     font-size: 20px;
     line-height: 30px;
 }
 
     .intro-container {
-        margin-top: 7rem;
+        margin-top: 2rem;
     }
 
     .welcome-span {
@@ -961,17 +969,21 @@ th, td {
     margin-top: 2rem;
 }
 
+.intro-p {
+    margin: 1rem 1rem 3rem 4rem;   
+}
+
+.blogpost-img1 {
+    width: 90vh;
+    margin-top: 3rem;
+}
+
 }
 
 @media screen and (min-width: 1200px) { 
     /*===========================
    Navbar and main image
 ============================*/
-
-.hero1-img {
-    width: 240vh;
-    height: 180vh;
-}
 
 .hero1-h1 {
     margin-top: 22rem;
