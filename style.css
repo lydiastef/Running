@@ -37,7 +37,6 @@ h3 {
 
 .list-h3 {
     margin-left: 0;
-
 }
 
 p, ol, ul {
@@ -90,6 +89,7 @@ nav {
     width: 100%;
     height: 80px;
     background: #586333;
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .logo-container {
@@ -491,8 +491,7 @@ form button {
 .box {
     background: #586333;
     color: white;
-    margin: 2rem 3rem 2rem 3rem;
-    height: 20vh;
+    margin: 2rem 3rem 3rem 3rem;
     border-radius: 5px;
     box-shadow: 5px 6px 12px rgba(0, 0, 0, 0.4);
     text-align: center;
@@ -508,7 +507,14 @@ form button {
     display: flex;
     margin: 2rem 3rem auto 3rem;
     margin-top: 2rem;
-    width: 36vh;
+    width: 65vh;
+}
+
+.blogpost-img2 {
+    display: flex;
+    margin: 2rem 3rem auto 3rem;
+    margin-top: 2rem;
+    width: 65vh;
 }
 
 /*7-gear-items*/
@@ -544,6 +550,8 @@ form button {
     text-decoration: underline;
 }
 
+/*Beginner-marathons*/
+
 table {
     margin: auto;
     border-collapse: collapse;
@@ -556,6 +564,32 @@ th, td {
     text-align: center;
     font-size: 12px;
 }
+
+.number-and-h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 3rem 0 -2rem;
+}
+
+.number {
+    border: solid #bc6c25;
+    border-radius: 50%;
+    width: 10%;
+    padding: .3rem .8rem;
+    margin-right: 1rem;
+}
+
+.marathon-list-h3 {
+    font-size: 22px;
+    color: #bc6c25;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 1);
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+}
+
+/*Beginner shoes*/
 
 .beg-shoe-p {
     margin: 1.5rem 3rem 1.5rem 3rem;
@@ -835,6 +869,11 @@ footer {
     letter-spacing: 0.8px;
 }
 
+.blogpost-img2 {
+    margin: 2rem 3rem 4rem 4rem;
+    width: 110vh;
+}
+
 /*7-gear-items*/
 .img-and-text {
     display: flex;
@@ -862,6 +901,14 @@ th, td {
 
 table {
     width: 84%;
+}
+
+.number-and-h3 {
+    margin: 2rem 3rem 1rem -3rem;
+}
+
+.marathon-list-h3 {
+    font-size: 26px;
 }
 
 }
@@ -963,6 +1010,10 @@ table {
     font-size: 18px;
 }
 
+.blogpost-img2 {
+    width: 150vh;
+}
+
 /*Starting*/
 .grouprunning-image {
     width: 80%;
@@ -976,6 +1027,16 @@ table {
 .blogpost-img1 {
     width: 90vh;
     margin-top: 3rem;
+}
+
+/*beginner marathons*/
+
+.number-and-h3 {
+    margin: 2rem 3rem 2rem -3rem;
+}
+
+.marathon-list-h3 {
+    font-size: 30px;
 }
 
 }
