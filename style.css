@@ -16,12 +16,12 @@ h1 {
     letter-spacing: 0.8px;
     line-height: 30px;
     text-align: center;
-    margin: 3rem;
+    margin: 3rem 6rem;
 }
 
 h2 {
     font-size: 16px;
-    margin: 3rem 3rem 1.5rem 3rem;
+    margin: 3rem 4rem 1.5rem 4rem;
     letter-spacing: 0.6px;
 }
 
@@ -32,7 +32,7 @@ h2 {
 
 h3 {
     font-size: 14px;
-    margin: 2rem 2.5rem 0 3rem;
+    margin: 2rem 4rem 0 4rem;
 }
 
 .list-h3 {
@@ -41,9 +41,9 @@ h3 {
 
 p, ol, ul {
     font-size: 12px;
-    line-height: 23px;
+    line-height: 26px;
     letter-spacing: 0.6px;
-    margin: 2rem 3rem 2rem 3rem;
+    margin: 2rem 4rem 2rem 4rem;
 }
 
 ol {
@@ -491,7 +491,7 @@ form button {
 .box {
     background: #586333;
     color: white;
-    margin: 2rem 3rem 3rem 3rem;
+    margin: 2rem 4rem 3rem 4rem;
     border-radius: 5px;
     box-shadow: 5px 6px 12px rgba(0, 0, 0, 0.4);
     text-align: center;
@@ -505,14 +505,14 @@ form button {
 
 .blogpost-img1 {
     display: flex;
-    margin: 2rem 3rem auto 3rem;
+    margin: 2rem 4rem auto 4rem;
     margin-top: 2rem;
     width: 65vh;
 }
 
 .blogpost-img2 {
     display: flex;
-    margin: 2rem 3rem auto 3rem;
+    margin: 2rem 4rem auto 4rem;
     margin-top: 2rem;
     width: 65vh;
 }
@@ -555,12 +555,13 @@ form button {
 table {
     margin: auto;
     border-collapse: collapse;
-    width: 76%;
+    width: 80%;
+    padding: 5rem;
 }
 
 th, td {
     border: 1px solid black;
-    padding: 8px;
+    padding: 16px;
     text-align: center;
     font-size: 12px;
 }
@@ -569,7 +570,7 @@ th, td {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 2rem 3rem 0 -2rem;
+    margin: 2rem 3rem -1rem -2rem;
 }
 
 .number {
@@ -716,7 +717,7 @@ footer {
 
     h2 {
         font-size: 20px;
-        margin: 1rem 3rem 1.5rem 4rem;
+        margin: 1rem 5rem 1.5rem 6rem;
     }
 
     h3{
@@ -725,7 +726,8 @@ footer {
 
     p {
         font-size: 14px;
-        margin: 1rem 4rem 3rem 4rem;
+        margin: 1rem 5rem 3rem 6rem;
+        line-height: 30px;
     }
 
     .a-link {
@@ -742,7 +744,7 @@ footer {
     }
 
     .list-p {
-        margin: -1rem 8rem 2rem 0;
+        margin: -1rem 6rem 2rem 2rem;
     }
 
     ol {
@@ -766,7 +768,7 @@ footer {
     }
 
     .intro-p {
-        margin: 1rem 0 3rem 4rem;   
+        margin: 1rem 0 3rem 6rem;   
     }
 
     .blogpost-img1 {
@@ -860,7 +862,7 @@ footer {
 ============================*/
 
 .box {
-    margin: 2rem 4rem 3rem 4rem;
+    margin: 2rem 6rem 3rem 6rem;
 }
 
 .box-text {
@@ -870,7 +872,7 @@ footer {
 }
 
 .blogpost-img2 {
-    margin: 2rem 3rem 4rem 4rem;
+    margin: 2rem 3rem 4rem 6rem;
     width: 110vh;
 }
 
@@ -900,7 +902,7 @@ th, td {
 /*Marathons for beginners*/
 
 table {
-    width: 84%;
+    width: 80%;
 }
 
 .number-and-h3 {
@@ -1011,7 +1013,17 @@ table {
 }
 
 .blogpost-img2 {
-    width: 150vh;
+    width: 125vh;
+}
+
+.content-and-sidebar {
+    display: flex;
+    height: 100%;
+}
+
+.sidebar {
+    width: 100%;
+    border-left: solid rgba(0, 0, 0, 0.089);
 }
 
 /*Starting*/
@@ -1021,7 +1033,7 @@ table {
 }
 
 .intro-p {
-    margin: 1rem 1rem 3rem 4rem;   
+    margin: 1rem 1rem 3rem 6rem;   
 }
 
 .blogpost-img1 {
