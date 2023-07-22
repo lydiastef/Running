@@ -1023,6 +1023,7 @@ table {
 
 .sidebar {
     width: 100%;
+    margin-top: 2rem;
     border-left: solid rgba(0, 0, 0, 0.089);
 }
 
