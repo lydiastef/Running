@@ -21,7 +21,7 @@ h1 {
 
 h2 {
     font-size: 16px;
-    margin: 3rem 4rem 1.5rem 4rem;
+    margin: 3.5rem 4rem 1.5rem 4rem;
     letter-spacing: 0.6px;
 }
 
@@ -39,20 +39,40 @@ h3 {
     margin-left: 0;
 }
 
-p, ol, ul {
+.in-text-h3 {
+    font-size: 13px;
+    margin: 1rem 0 0 1rem;
+}
+
+.ul-p {
+    margin: .5rem 1rem 1rem 1rem;
+}
+
+p {
     font-size: 12px;
     line-height: 26px;
     letter-spacing: 0.6px;
     margin: 2rem 4rem 2rem 4rem;
 }
 
+ul {
+    margin: 2rem 5rem 2rem 4rem;
+}
+
+.ul-border {
+    border-bottom: double #586333;
+    padding-bottom: 2rem;
+}
+
 ol {
     font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.6px;
+    margin: 2rem 4rem 2rem 4rem;
 }
 
 .list-p {
-    margin: auto 0 auto 0;
-    margin-top: 1rem;
+    margin: 1rem 0 auto 0;
 }
 
 .list-p-amz {
@@ -117,7 +137,7 @@ nav {
     position: absolute;
     width: 36vh;
     height: 0vh;
-    top: 30px;
+    top: 40px;
     right: -48px;
     background: #586333;
     border-radius: 0 0 10px 10px;
@@ -755,9 +775,27 @@ footer {
 
     ul {
         font-size: 14px;
-        margin: 3rem 0 2rem 4rem;
+        margin: 3rem 0 2rem 6rem;
         line-height: 60px;
     }
+
+
+
+    .in-text-h3 {
+        font-size: 15px;
+        margin: 0 0 0 1rem;
+    }
+    
+    .ul-p {
+        margin: -0.5rem 3rem 1rem 1rem;
+    }
+
+    .ul-border {
+        margin: 3rem 6rem 3rem 6rem;
+    }
+
+
+
 
     .about-h1 {
         margin: 4rem 2rem 4rem 0;
@@ -978,6 +1016,15 @@ table {
 
     p {
         font-size: 15px;
+    }
+
+    .in-text-h3 {
+        font-size: 16px;
+        margin: 0 0 0 1rem;
+    }
+    
+    .ul-p {
+        margin: -0.5rem 3rem 1rem 1rem;
     }
 
 /*===========================
