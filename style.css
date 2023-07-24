@@ -291,7 +291,19 @@ nav {
     2px 2px 6px rgba(0, 0, 0, 0.8);
 }
 
-/*.subscribe-p {
+.subscribe-form {
+    margin: 3rem auto 3rem auto;
+}
+
+/*===========================
+         Subscribe
+============================*/
+
+/*.subscribe {
+
+}
+
+.subscribe-p {
     color: white;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 1), 
     2px 2px 6px rgba(0, 0, 0, 0.8);
@@ -301,6 +313,9 @@ nav {
 
 form {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
     width: fit-content;
 }
 
@@ -325,6 +340,11 @@ form button {
     color: white;
     font-size: 16px;
     text-transform: uppercase;
+}
+
+form button:hover {
+    background: #74853e;
+    transition: .5s;
 }*/
 
 /*===========================
@@ -1069,8 +1089,8 @@ table {
 }
 
 .sidebar {
-    width: 100%;
-    margin-top: 2rem;
+    width: 120%;
+    margin: 2rem auto 4rem auto;
     border-left: solid rgba(0, 0, 0, 0.089);
 }
 
