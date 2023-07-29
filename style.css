@@ -59,20 +59,16 @@ p {
     margin: 2rem 4rem 2rem 4rem;
 }
 
-ul {
-    margin: 2rem 5rem 2rem 4rem;
-}
-
 .ul-border {
     border-bottom: double #586333;
     padding-bottom: 2rem;
 }
 
-ol {
+ol, ul {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.6px;
-    margin: 2rem 4rem 2rem 4rem;
+    margin: 2rem 5rem 2rem 4rem;
 }
 
 .list-p {
@@ -561,7 +557,7 @@ form button:hover {
     width: 80%;
 }
 
-/*7-gear-items*/
+/*7-gear-items and shoes*/
 
 .img-and-text-beg-shoes {
     display: flex;
@@ -584,14 +580,25 @@ form button:hover {
 }
 
 .shoe-link2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     color: black;
     font-weight: bold;
     font-size: 12px;
+    line-height: 20px;
     text-decoration: none;
+    margin: auto -3rem;
 }
 
 .shoe-link2:hover {
     text-decoration: underline;
+}
+
+.alt-text {
+    line-height: 16px;
+    padding-top: .3rem;
 }
 
 /*Beginner-marathons*/
@@ -801,19 +808,11 @@ footer {
         margin: -1rem 6rem 2rem 2rem;
     }
 
-    ol {
-        font-size: 16px;
-        margin: 3rem 3rem 2rem 4rem;
-        line-height: 60px;
-    }
-
-    ul {
+    ul, ol {
         font-size: 14px;
         margin: 3rem 0 2rem 6rem;
         line-height: 60px;
     }
-
-
 
     .in-text-h3 {
         font-size: 15px;
@@ -822,6 +821,14 @@ footer {
     
     .ul-p {
         margin: -0.5rem 3rem 1rem 1rem;
+    }
+
+    .amz-link-text {
+        margin-bottom: 3rem;
+    }
+
+    li {
+        margin-bottom: 1rem;
     }
 
     .ul-border {
@@ -954,16 +961,20 @@ footer {
     display: flex;
 }
 
-.shoe-text {
-    margin-left: 1rem;
-}
-
 th, td {
     font-size: 14px;
 }
 
 .shoe-img1 {
     margin: -7rem auto -7rem auto;
+}
+
+.shoe-link2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto -3rem;
 }
 
 /*Starting*/
