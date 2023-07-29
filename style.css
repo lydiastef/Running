@@ -1073,6 +1073,10 @@ table {
         margin: -0.5rem 3rem 1rem 1rem;
     }
 
+    .subscribe-form {
+        width: 80%;
+    }
+
 /*===========================
    Navbar and main image
 ============================*/
@@ -1115,7 +1119,7 @@ table {
 }
 
 .sidebar {
-    width: 120%;
+    width: 80%;
     margin: 2rem auto 4rem auto;
     border-left: solid rgba(0, 0, 0, 0.089);
 }
