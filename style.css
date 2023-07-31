@@ -604,7 +604,7 @@ form button:hover {
 /*Beginner-marathons*/
 
 table {
-    margin: auto;
+    margin: 3rem auto;
     border-collapse: collapse;
     width: 80%;
     padding: 5rem;
@@ -612,8 +612,7 @@ table {
 
 th, td {
     border: 1px solid black;
-    padding: 16px;
-    text-align: center;
+    padding: 1rem 2rem;
     font-size: 12px;
 }
 
@@ -621,7 +620,7 @@ th, td {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 2rem 3rem -1rem -2rem;
+    margin: 1rem 3rem -1rem -2rem;
 }
 
 .number {
@@ -639,6 +638,10 @@ th, td {
     text-align: center;
     padding: 2rem;
     width: 100%;
+}
+
+.marathon-link {
+    color: black;
 }
 
 /*Beginner shoes*/
@@ -1119,7 +1122,7 @@ table {
 }
 
 .sidebar {
-    width: 80%;
+    width: 160%;
     margin: 2rem auto 4rem auto;
     border-left: solid rgba(0, 0, 0, 0.089);
 }
@@ -1173,6 +1176,10 @@ table {
         margin-top: 12rem;
     }
 
-
+    .sidebar {
+        width: 120%;
     }
+
+
+}
 
