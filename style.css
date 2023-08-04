@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 22px;
     letter-spacing: 0.8px;
     line-height: 30px;
     text-align: center;
@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 18px;
     margin: 3.5rem 4rem 1.5rem 4rem;
     letter-spacing: 0.6px;
 }
@@ -31,8 +31,9 @@ h2 {
 }
 
 h3 {
-    font-size: 14px;
+    font-size: 16px;
     margin: 2rem 4rem 0 4rem;
+    letter-spacing: 0.6px;
 }
 
 .list-h3 {
@@ -57,6 +58,12 @@ p {
     line-height: 26px;
     letter-spacing: 0.6px;
     margin: 2rem 3rem 2rem 4rem;
+}
+ 
+h4 {
+    margin: 0 3rem 0 4rem;
+    font-size: 16px;
+    letter-spacing: 0.6px;
 }
 
 .ul-border {
@@ -699,6 +706,47 @@ th {
     width: 84%;
 }
 
+/*Exercises*/
+
+.h3-p-and-picture {
+    display: flex;
+    flex-direction: column;
+}
+
+.exercise-number-and-h3 {
+    display: flex;
+    flex-direction: column;
+    line-height: 32px;
+}
+
+.exercises {
+    width: 50vh;
+    margin: -2rem auto auto auto;
+}
+
+.number-exercises {
+    border: solid #bc6c25;
+    background-color: white;
+    color: #586333;
+    border-radius: 50%;
+    width: 12%;
+    font-weight: bold;
+    padding: .4rem .5rem;
+    font-size: 22px;
+    margin: 1rem auto;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.h4-and-text {
+    margin-left: 2rem;
+}
+
+.muscle-p {
+    margin-top: .5rem;
+}
+
 /*===========================
           Footer
 ============================*/
@@ -1030,6 +1078,27 @@ table {
 
 .table-number {
     margin-left: 1rem;
+}
+
+/*Exercises*/
+
+.text-and-picture {
+    display: flex;
+    flex-direction: row;
+}
+
+.h3-p-and-picture {
+    display: flex;
+    flex-direction: row;
+}
+
+.exercises {
+    width: 50vh;
+    margin: auto;
+}
+
+.exercises-p {
+    margin: 2rem -3rem 2rem 6rem;
 }
 
 }
