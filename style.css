@@ -66,6 +66,16 @@ h4 {
     letter-spacing: 0.6px;
 }
 
+h5 {
+    margin: 0 0 0 4rem;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+}
+
+.muscle-p {
+    margin-top: .5rem;
+}
+
 .ul-border {
     border-bottom: double #586333;
     padding-bottom: 2rem;
@@ -743,10 +753,6 @@ th {
     margin-left: 2rem;
 }
 
-.muscle-p {
-    margin-top: .5rem;
-}
-
 /*===========================
           Footer
 ============================*/
@@ -923,6 +929,20 @@ footer {
 
     .blogpost-img1 {
         margin-top: 1rem;
+    }
+
+    .muscles-h3 {
+        margin: 0 3rem 0 6rem;
+    }
+
+    h4 {
+        margin: 0 3rem 0 6rem;
+        font-size: 17px;
+    }
+
+    h5 {
+        margin: 0 0 0 6rem;
+        font-size: 15px;
     }
 
 /*===========================
