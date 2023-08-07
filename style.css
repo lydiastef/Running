@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-    font-size: 22px;
+    font-size: 24px;
     letter-spacing: 0.8px;
     line-height: 30px;
     text-align: center;
@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 20px;
     margin: 3.5rem 4rem 1.5rem 4rem;
     letter-spacing: 0.6px;
 }
@@ -31,7 +31,7 @@ h2 {
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 18px;
     margin: 2rem 4rem 0 4rem;
     letter-spacing: 0.6px;
 }
@@ -68,7 +68,7 @@ h4 {
 
 h5 {
     margin: 0 0 0 4rem;
-    font-size: 14px;
+    font-size: 15px;
     letter-spacing: 0.6px;
 }
 
@@ -230,28 +230,6 @@ nav {
          Main image
 ============================*/
 
-/*.coming-soon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-bottom: solid #586333;
-}
-
-.coming-soon-h1 {
-    margin-top: 1rem;
-    margin-bottom: -0.5rem;
-    font-size: 36px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    animation: colorChange 3s infinite;
-}
-
-@keyframes colorChange {
-    0% {color: black;}
-    50% {color: #FF7F50;} 
-    100% {color: black;}
-}*/
-
 .coming-soon-p {
     text-align: center;
     font-size: 16px;
@@ -283,19 +261,6 @@ nav {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-/*.hero1-h1-1 {
-    text-align: left;
-    margin-top: 2rem;
-    margin-left: 2rem;
-    padding-bottom: 1rem;
-    font-weight: 100;
-    font-size: 24px;
-    color: white;
-    width: 75%;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 1), 
-    2px 2px 6px rgba(0, 0, 0, 0.8);
-}*/
-
 .hero1-h2 {
     text-align: left;
     margin-top: 0rem;
@@ -312,58 +277,6 @@ nav {
 .subscribe-form {
     margin: 3rem auto 3rem auto;
 }
-
-/*===========================
-         Subscribe
-============================*/
-
-/*.subscribe {
-
-}
-
-.subscribe-p {
-    color: white;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 1), 
-    2px 2px 6px rgba(0, 0, 0, 0.8);
-    margin: 0 8rem 0 8rem;
-    font-size: 14px;
-}
-
-form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    width: fit-content;
-}
-
-form input {
-    border: 0;
-    border-radius: 6px 0 0 6px;
-    outline: none;
-    padding: 10px 20px;
-    height: 40px;
-    width: 300px;
-    font-size: 14px;
-}
-
-form button {
-    background: #586333;
-    border: none;
-    border-radius: 0 6px 6px 0;
-    outline: none;
-    height: 40px;
-    width: 70px;
-    cursor: pointer;
-    color: white;
-    font-size: 16px;
-    text-transform: uppercase;
-}
-
-form button:hover {
-    background: #74853e;
-    transition: .5s;
-}*/
 
 /*===========================
          Intro text
@@ -456,7 +369,7 @@ form button:hover {
 
 .about-h1 {
     margin: 4rem 2rem 2rem 0;
-    text-align: left;
+    text-align: center;
 }
 
 .about-p {
@@ -767,6 +680,11 @@ th {
     margin: -1rem auto 3rem 4rem;
 }
 
+.muscles-img-small {
+    width: 25vh;
+    margin: -1rem auto 3rem 4rem;
+}
+
 .exercises-p {
     margin: 2rem 0;
 }
@@ -872,19 +790,19 @@ footer {
 
 @media screen and (min-width: 750px) { 
     h1 {
-        font-size: 26px;
+        font-size: 28px;
         line-height: 40px;
         margin-left: 6rem;
         margin-right: 6rem;
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 24px;
         margin: 1rem 5rem 1.5rem 6rem;
     }
 
     h3{
-        font-size: 16px;
+        font-size: 20px;
     }
 
     p {
@@ -959,12 +877,12 @@ footer {
 
     h4 {
         margin: 0 3rem 0 6rem;
-        font-size: 17px;
+        font-size: 18px;
     }
 
     h5 {
         margin: 0 0 0 6rem;
-        font-size: 15px;
+        font-size: 16px;
     }
 
 /*===========================
@@ -1162,6 +1080,10 @@ table {
     margin: auto 5rem 3rem -3rem;
 }
 
+.muscles-img-small {
+    margin: auto 5rem 3rem -3rem;
+}
+
 .exercise-number-and-h3 {
     border-top: none;
 }
@@ -1215,19 +1137,19 @@ table {
 
 @media screen and (min-width: 1000px) { 
     h1 {
-        font-size: 34px;
+        font-size: 36px;
         margin-left: 14rem;
         margin-right: 14rem;
         line-height: 60px;
     }
     
     h2 {
-        font-size: 22px;
+        font-size: 26px;
         margin-top: 3rem;
     }
 
     h3 {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     p {
