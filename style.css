@@ -626,7 +626,7 @@ th {
 }
 
 .grouprunning-image {
-    width: 84%;
+    width: 75%;
 }
 
 /*Exercises*/
@@ -691,6 +691,10 @@ th {
 
 .exercises-p-step-ups {
     margin: 2rem 2rem 2rem 0;
+}
+
+.affiliate-links {
+    margin: auto auto 4rem 4rem;
 }
 
 /*===========================
@@ -1086,6 +1090,12 @@ table {
 
 .exercise-number-and-h3 {
     border-top: none;
+}
+
+.affiliate-links {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 10rem 4rem 6rem;
 }
 
 }
