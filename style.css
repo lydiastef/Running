@@ -41,7 +41,7 @@ h3 {
 }
 
 .in-text-h3 {
-    font-size: 13px;
+    font-size: 14px;
     margin: 1rem 0 0 1rem;
 }
 
@@ -839,8 +839,8 @@ footer {
     }
 
     .in-text-h3 {
-        font-size: 15px;
-        margin: 0 0 0 1rem;
+        font-size: 16px;
+        margin: 0 0 -1rem 1rem;
     }
     
     .ul-p {
@@ -1167,8 +1167,8 @@ table {
     }
 
     .in-text-h3 {
-        font-size: 16px;
-        margin: 0 0 0 1rem;
+        font-size: 18px;
+        margin: 0 0 -1rem 1rem;
     }
     
     .ul-p {
