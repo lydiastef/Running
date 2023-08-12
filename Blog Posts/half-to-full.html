@@ -65,7 +65,7 @@
                     Whether you're an experienced half marathoner or a first-timer aiming for the full 26.2 miles (42,2 km), this guide will help you cross that finish line with confidence.<br><br>
                 </p>
             </div>
-            <img class="blogpost-img1" src="../Images/strength.avif" alt="Women planking for strength">
+            <img class="blogpost-img1" src="../Images/half-full.avif" alt="Women planking for strength">
         </div>
         
         <div class="content-and-sidebar">
@@ -82,6 +82,18 @@
                     <strong>Travel and Exploration:</strong> Many full marathons are held in iconic locations around the world. Participating in a destination marathon can offer you the opportunity to explore new places while pursuing your athletic goals.<br>
                     <strong>Personal Growth:</strong> Training for and completing a full marathon can be a transformative experience. It can teach you valuable lessons about perseverance, time management, and the importance of consistent effort—all of which can positively impact various aspects of your life.</p>
                 
+                <h2>How Long Does It Take To Go From Half Marathon To Full Marathon?</h2>
+                <p>The time it takes to progress from a half marathon to a full marathon varies widely depending on factors like your current fitness level, running experience, training consistency, and individual goals. Generally, the transition can take anywhere from a few months to a year or more. Here's a rough guideline:<br><br>
+                    <strong>Novice Runners:</strong> If you're relatively new to running and have just completed your first half marathon, you should give yourself ample time to build up your endurance. You might aim for a full marathon 6 to 12 months after your half marathon.<br>
+                    <strong>Intermediate Runners:</strong> If you have a solid running base, regularly run longer distances, and have been consistently training, you might be able to progress more quickly. Training plans typically range from 16 to 20 weeks for marathon preparation. This assumes that you're already comfortable with running several times a week and have a good foundation of running fitness.<br>
+                    <strong>Experienced Runners:</strong> Runners who have completed multiple half marathons and are consistently logging higher weekly mileage might be able to transition to a full marathon within a shorter time frame, such as 3 to 6 months. These individuals are likely more familiar with the demands of distance running and can adapt more rapidly.<br><br>
+                    Remember that the transition should be gradual to minimize the risk of injury and burnout. Marathon training involves increasing weekly mileage, incorporating longer runs, and adapting to the mental and physical challenges of the longer distance. It's also recommended to consult with a coach or follow a structured training plan to ensure a safe and effective progression.<br>
+                    Ultimately, listen to your body, set realistic goals, and prioritize proper training, recovery, and injury prevention. Rushing the transition from a half marathon to a full marathon can lead to overtraining or injury, so finding the balance that works best for you is crucial.
+                    </p>
+
+                <img class="blogpost-img2" src="../Images/trainingplan.avif" alt="training plan">
+
+                    
                 <h2>How To Go from Half Marathon to Full Marathon?</h2>
                 <ul>
                     <li><h3 class="in-text-h3">Set Clear Goals and Expectations</h3><p class="ol-p">Before you begin your training, define your goals for the full marathon. Are you aiming for a specific finish time, or do you want to focus on simply completing the distance? Setting clear goals will shape your training plan and help you stay motivated.<br>
@@ -98,4 +110,43 @@
                         I like to have my own bottles of water and energy/electrolyte drinks so I won't have to stop at every water station during the race. Then I can take small sips throughout the race and only fill up my bottles once or twice along the way.<br>
                         For nutrition during a race, I have come to terms with gels. I find it incredibly hard to chew food while running or walking fast, so I've given up on that (except in ultras). Initially, I found it hard to eat the gels, they made me gag, but I found some solutions. I bought a gel bottle; it's like a water bottle but made for thicker liquids. I can put 2-4 gels in the bottle and add water to it, then it's no longer the thick gel consistency but rather like juice.
                         Also, Some gels have a more watery consistency, like the "High 5" gels, and they also taste delicious, so those are my go-to gels.</p></li>
+                    <li><h3 class="in-text-h3">Long Runs and Time on Feet</h3><p class="ol-p">The foundation of marathon training lies in the long runs.<br>
+                        Gradually build up to a few runs that mimic the marathon distance of 18-20 miles (29-32 km). These runs not only train your body but also prepare you mentally for the challenge ahead. Aim to spend more time on your feet during these runs to simulate marathon conditions.<br> 
+                        The long runs should be your slowest runs so you can go on longer without fatigue. Speed and distance are practiced separately. Speed is practiced during shorter runs and incorporated into the marathon during the race.</p></li>
+                    <li><h3 class="in-text-h3">Mental Preparedness</h3><p class="ol-p">Mentally preparing for a full marathon is as essential as physical training. Develop strategies to stay focused and positive during the race. Visualize yourself crossing the finish line and practice positive self-talk to overcome moments of doubt.<br>
+                        My go-to strategies are smiling to trick my brain into thinking I'm feeling good and saying to myself, "I am happy, and I feel good, I am happy, and I feel good."</p></li>
+                    <li><h3 class="in-text-h3">Recovery and Rest</h3><p class="ol-p">As your training intensifies, prioritize recovery and rest. Include rest days in your training plan, incorporate foam rolling or stretching routines, and consider cross-training to reduce the risk of getting injured and prevent runners' burnout. Cross-training could be, e.g., cycling or yoga.</p></li>
+                    <li><h3 class="in-text-h3">Tapering</h3><p class="ol-p">In the weeks leading up to the marathon, taper your training to allow your body to recover and peak on race day but don't stop your training. Reduce your mileage while maintaining intensity to ensure you're well-rested and ready to perform.</p></li> 
+                    <li><h3 class="in-text-h3">Celebrate Your Achievement</h3><p class="ol-p">Crossing the finish line of your first full marathon is an incredible accomplishment. Regardless of your finish time, take pride in your journey and the hard work you've put in. Celebrate your achievement and reflect on the growth you've experienced as a runner.</p></li>    
+   
                 </ul>
+    </article>
+            
+            <!--footer-->
+            <footer>
+               <div id="footerPlaceholder"></div>
+           </footer>
+           
+                 <!--JS to fetch the navbar-->
+           <script>
+               fetch('./navbar.html')
+                 .then(response => response.text())
+                 .then(html => {
+                   const navbarPlaceholder = document.getElementById('navbarPlaceholder');
+                   navbarPlaceholder.innerHTML = html;
+                 });
+           </script>
+           
+             <!--JS to fetch the footer-->
+           <script>
+               fetch('./footer.html')
+                 .then(response => response.text())
+                 .then(html => {
+                   const footerPlaceholder = document.getElementById('footerPlaceholder'); // Replace 'navbar-container' with the ID of the element where you want to insert the navbar
+                   footerPlaceholder.innerHTML = html;
+                 });
+             </script>
+           </body>
+           </html>
+</body>
+</html>
