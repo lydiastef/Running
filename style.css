@@ -488,6 +488,12 @@ nav {
     width: 80%;
 }
 
+.blogpost-img3 {
+    display: flex;
+    margin: -1rem auto;
+    width: 40%;
+}
+
 /*7-gear-items and shoes*/
 
 .img-and-text-beg-shoes {
