@@ -494,6 +494,18 @@ nav {
     width: 35%;
 }
 
+.blogpost-img4 {
+    display: flex;
+    margin: auto;
+    width: 65%;
+}
+
+.image-and-alt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /*7-gear-items and shoes*/
 
 .img-and-text-beg-shoes {
@@ -876,7 +888,7 @@ footer {
     }
 
     .intro-p {
-        margin: 1rem 0 3rem 6rem; 
+        margin: 1rem 0 1rem 6rem; 
     }
 
     .blogpost-img1 {
@@ -998,13 +1010,17 @@ footer {
 }
 
 .blogpost-img1 {
-    width: 50vh;
+    width: 65vh;
     margin: 5rem 2rem auto 1rem;
 }
 
 .blogpost-img2 {
     margin: 2rem 3rem 4rem 6rem;
     width: 110vh;
+}
+
+.image-and-alt {
+    margin: 3rem auto;
 }
 
 /*7-gear-items*/
@@ -1154,8 +1170,8 @@ table {
 .nav-list li {
     display: inline-block;
     opacity: 1;
-    line-height: 25px;
-    padding: 0px 20px;
+    line-height: 22px;
+    padding: 0px 20px 20px 20px;
     letter-spacing: 1px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     border-bottom: none;
@@ -1232,6 +1248,11 @@ table {
     font-size: 18px;
 }
 
+.blogpost-img1 {
+    width: 80vh;
+    margin-top: 3rem;
+}
+
 .blogpost-img2 {
     width: 125vh;
 }
@@ -1254,12 +1275,7 @@ table {
 }
 
 .intro-p {
-    margin: 1rem 1rem 3rem 6rem;   
-}
-
-.blogpost-img1 {
-    width: 90vh;
-    margin-top: 3rem;
+    margin: 1rem 1rem 1rem 6rem;   
 }
 
 /*beginner marathons*/
