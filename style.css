@@ -735,6 +735,25 @@ th {
     margin: auto 4rem 4rem 4rem;
 }
 
+/*Motivation*/
+.ol-amz-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.amz-text-link {
+    color: black;
+    text-decoration: none;
+}
+
+.amz-text-link:hover {
+    color: black;
+    text-decoration: underline;
+}
+
 /*===========================
           Footer
 ============================*/
@@ -876,7 +895,8 @@ footer {
 
     .in-text-h3 {
         font-size: 16px;
-        margin: 0 0 -1rem 1rem;
+        line-height: 30px;
+        margin-right: 3rem;
     }
     
     .ul-p {
@@ -1075,6 +1095,10 @@ th, td {
     margin: auto -3rem;
 }
 
+.alt-text {
+    margin-top: -1.8rem;
+}
+
 /*Starting*/
 .grouprunning-image {
     width: 70%;
@@ -1151,6 +1175,11 @@ table {
     display: flex;
     justify-content: space-between;
     margin: auto 10rem 4rem 6rem;
+}
+
+/*Motivation*/
+.ol-amz-img {
+    margin: 2rem;
 }
 
 /*==============================
@@ -1236,7 +1265,6 @@ table {
 
     .in-text-h3 {
         font-size: 18px;
-        margin: 0 0 -1rem 1rem;
     }
     
     .ul-p {
