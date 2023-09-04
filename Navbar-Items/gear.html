@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
     <script src="https://kit.fontawesome.com/aa607b7c52.js" crossorigin="anonymous"></script>    
-    <title>Marathons for beginners</title>
+    <title>Running Gear</title>
 </head>
 <body>
     <nav>
@@ -33,26 +33,31 @@
             <li><a class="ahref" href="./gear.html"><span>Gear</span></a></li>
             <li><a class="ahref" href="./races.html"><span>Races</span></a></li>
             <li><a class="ahref" href="#"><span>Training Plans</span></a></li>
-            <li><a class="ahref" href="../Blog Posts/about.html"><span>About</span></a></li>
+            <li><a class="ahref" href="../Blog-Posts/about.html"><span>About</span></a></li>
             <li><a class="ahref" href="../converter.html"><span>Converter</span></a></li>
           </ul>
       </nav>
+
       <div class="blog-post-container">
         <div class="img-and-link">
-            <img src="../Images/couch2marathon.avif" alt="Marathon runners" loading="lazy">
+            <img src="../Images/meatbackyard.avif" alt="Running gear at race" loading="lazy">
             <div class="blog-post-a">
-                <a class="beginner-marathon-link" href="../Blog-Posts/half-marathons.html">Best Half Marathons in the U.S.</a>
+                <a class="7-gear-items-link" href="../Blog-Posts/7-gear-items.html">The 7 Most Essential Running Gear Items Runners Need</a>
             </div>
         </div>
-      </div>
-      <div class="blog-post-container">
         <div class="img-and-link">
-            <img src="../Images/marathon.avif" alt="Marathon runners" loading="lazy">
+            <img src="../Images/tyingshoe.avif" alt="Woman lacing up her running shoes" loading="lazy">
             <div class="blog-post-a">
-                <a class="beginner-marathon-link" href="../Blog-Posts/beginner-marathons.html">The 11 Best Marathons for Beginners: Your Guide to a Memorable First Marathon in the U.S.</a>
+                <a class="shoes-link" href="../Blog-Posts/shoes.html">A Comprehensive Guide to Choosing the Right Running Shoes</a>
             </div>
         </div>
-      </div>
+        <div class="img-and-link">
+            <img src="../Images/runningshoes.avif" alt="Running shoes" loading="lazy">
+            <div class="blog-post-a">
+                <a class="beginner-shoes-link" href="../Blog-Posts/beginner-shoes.html">The best running shoes for beginners</a>
+            </div>
+        </div>
+    </div>
     
 
       <!--footer-->
@@ -62,7 +67,7 @@
 
   <!--JS to fetch the footer-->
 <script>
-    fetch('../../Blog Posts/footer.html')
+    fetch('../../Blog-Posts/footer.html')
       .then(response => response.text())
       .then(html => {
         const footerPlaceholder = document.getElementById('footerPlaceholder'); // Replace 'navbar-container' with the ID of the element where you want to insert the navbar

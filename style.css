@@ -904,7 +904,7 @@ footer {
     .in-text-h3 {
         font-size: 16px;
         line-height: 30px;
-        margin-right: 3rem;
+        margin-bottom: 1rem;þ
     }
     
     .ul-p {
@@ -1328,7 +1328,7 @@ table {
 }
 
 .sidebar {
-    width: 280%;
+    width: 230%;
     margin: 2rem auto 4rem auto;
     border-left: solid rgba(0, 0, 0, 0.089);
 }
@@ -1395,7 +1395,7 @@ table {
     }
 
     .sidebar {
-        width: 250%;
+        width: 200%;
     }
 
 /*==============================
