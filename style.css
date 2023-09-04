@@ -932,11 +932,11 @@ footer {
     }
 
     .intro-p {
-        margin: 1rem 0 1rem 6rem; 
+        margin: 5rem 1rem 1rem 6rem; 
     }
 
     .blogpost-img1 {
-        margin: 5rem -2rem auto 1rem;
+        margin: 2rem -2rem 2rem 1rem;
     }
 
     .muscles-h3 {
@@ -1012,6 +1012,7 @@ footer {
     .text-img-container {
         display: flex;
         flex-direction: row;
+        margin-bottom: 4rem;
     }
 
     .starting-img {
@@ -1204,6 +1205,10 @@ table {
 
 @media screen and (min-width: 925px) { 
 
+    .intro-p {
+        margin: 3rem 1rem 1rem 6rem; 
+    }
+
     .hero1-img {
         margin: 19rem auto 2rem auto;
     }
@@ -1323,7 +1328,7 @@ table {
 }
 
 .sidebar {
-    width: 160%;
+    width: 280%;
     margin: 2rem auto 4rem auto;
     border-left: solid rgba(0, 0, 0, 0.089);
 }
@@ -1332,10 +1337,6 @@ table {
 .grouprunning-image {
     width: 80%;
     margin-top: 2rem;
-}
-
-.intro-p {
-    margin: 1rem 1rem 1rem 6rem;   
 }
 
 /*beginner marathons*/
@@ -1394,7 +1395,7 @@ table {
     }
 
     .sidebar {
-        width: 120%;
+        width: 250%;
     }
 
 /*==============================
