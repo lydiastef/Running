@@ -285,6 +285,30 @@ nav {
     margin: 3rem auto 3rem auto;
 }
 
+.advise-container {
+    margin: 3rem auto;
+}
+
+.advise-h2 {
+    margin: 0 0 1rem 0;
+    text-align: center;
+    font-family: 'Merienda', cursive;    
+}
+
+.advise-p {
+    margin: 1.5rem;
+}
+
+.advise {
+    background: white;
+    text-align: center;
+    padding: .03rem;
+    border-radius: 12px;
+    border: solid #586333;
+    box-shadow: 5px 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+
 /*===========================
          Intro text
 ============================*/
