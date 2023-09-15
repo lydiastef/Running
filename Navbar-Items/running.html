@@ -37,6 +37,17 @@
             <li><a class="ahref" href="../converter.html"><span>Converter</span></a></li>
           </ul>
       </nav>
+    
+    <div class="text-and-carousel">
+      <div class="the-text">
+        Some text
+      </div>
+      <div class="carousel">
+        <img src="../Images/marathon.avif" alt="Image 1">
+        <img src="../Images/grouprunning.avif" alt="Image 2">
+        <img src="../Images/half-full.avif" alt="carousel images">
+      </div>
+    </div>
 
     <div class="blog-post-container">
         <div class="img-and-link">
@@ -101,12 +112,33 @@
         </div>
 
         <div class="img-and-link">
-          <img src="../Images/warm-up.avif" alt="warm-up for running" loading="lazy">
+          <img src="../Images/ultra.avif" alt="ultra runners in nature" loading="lazy">
           <div class="blog-post-a">
               <a class="fartlek-link" href="../Blog-Posts/ultra.html">Ultra Marathons</a>
           </div>
         </div>
+
+        <div class="img-and-link">
+          <img src="../Images/destination-m.avif" alt="man running in the mountains" loading="lazy">
+          <div class="blog-post-a">
+              <a class="fartlek-link" href="../Blog-Posts/destination-m.html">Destination Marathons</a>
+          </div>
+        </div>
     </div>
+
+    <script>
+      const carousel = document.querySelector('.carousel');
+      const images = carousel.querySelectorAll('img');
+      let currentIndex = 0;
+
+      function nextImage() {
+          images[currentIndex].style.transform = 'translateX(-100%)';
+          currentIndex = (currentIndex + 1) % images.length;
+          images[currentIndex].style.transform = 'translateX(0)';
+      }
+
+      setInterval(nextImage, 3000); // Change image every 3 seconds (adjust as needed)
+  </script>
     
 
       <!--footer-->
