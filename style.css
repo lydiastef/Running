@@ -16,7 +16,7 @@ h1 {
     letter-spacing: 0.8px;
     line-height: 30px;
     text-align: center;
-    margin: 3rem 4rem;
+    margin: 5rem 4rem 3rem 4rem;
 }
 
 h2 {
@@ -37,7 +37,8 @@ h3 {
 }
 
 .list-h3 {
-    margin-left: 0;
+    margin: 1rem 0 0 0;
+    font-size: 14px;
 }
 
 .in-text-h3 {
@@ -58,6 +59,10 @@ p {
     line-height: 26px;
     letter-spacing: 0.6px;
     margin: 2rem 3rem 2rem 4rem;
+}
+
+.intro-p {
+    margin-bottom: 0;
 }
  
 h4 {
@@ -89,7 +94,7 @@ ol, ul {
 }
 
 .list-p {
-    margin: 1rem 0 auto 0;
+    margin: 0;
 }
 
 .list-p-amz {
@@ -120,6 +125,11 @@ hr {
     background-color: #586333;
     height: 2px;
     margin: 0 6rem;
+}
+
+.separation {
+    display: flex;
+    margin: -1rem 4rem;
 }
 
 
@@ -352,15 +362,28 @@ nav {
 
 .blog-post-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
-    grid-gap: 3rem;
+    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+    grid-gap: 1rem;
     margin: 4rem;
+}
+
+.blog-post-container1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+    grid-gap: 1rem;
+    margin: 20rem 2rem 2rem 2rem;
 }
 
 .blog-post-a {
     display: flex;
     font-size: 12px;
-    margin: 2rem;
+    margin: 1rem;
+}
+
+.blog-post-a1 {
+    display: flex;
+    font-size: 12px;
+    margin: 1rem;
 }
 
 .img-and-link a {
@@ -499,17 +522,61 @@ nav {
             Pages
 ============================*/
 
-.carousel {
+.text-and-carousel {
     display: flex;
-    overflow: hidden;
-    width: 300px; /* Set the width and height of your images */
-    height: 200px;
+    flex-direction: column;
+    border: solid black;
 }
 
-.carousel img {
-    width: 100%;
-    transition: transform 0.5s ease-in-out;
+.carousel-container {
+    width: 85vmin;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 45%;
+    left: 50%;
+    overflow: hidden;
+    border: 2px solid #586333;
+    border-radius: 8px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
 }
+
+.carousel {
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(0);
+    }
+    30% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(-100%);
+    }
+    55% {
+        transform: translateX(-200%);
+    }
+    75% {
+        transform: translateX(-200%);
+    }
+    80% {
+        transform: translateX(-300%);
+    }
+    100% {
+        transform: translateX(-300%);
+    }
+}
+
+.carousel-img {
+    width: 100%;
+}
+
   
 /*===========================
           Blog posts
@@ -540,7 +607,7 @@ nav {
 
 .blogpost-img1 {
     display: flex;
-    margin: 2rem 4rem auto 4rem;
+    margin: 0 4rem auto 4rem;
     width: 75%;
 }
 
@@ -552,7 +619,7 @@ nav {
 
 .blogpost-img3 {
     display: flex;
-    margin: -1rem auto;
+    margin: auto;
     width: 35%;
 }
 
@@ -563,8 +630,8 @@ nav {
 }
 
 .blogpost-img5 {
-    margin: auto;
-    width: 60%;
+    margin: 0;
+    width: 40%;
 }
 
 .image-and-alt {
@@ -621,6 +688,22 @@ nav {
     font-size: 12px;
     line-height: 16px;
     padding-top: .3rem;
+}
+
+.alt-text1 {
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: .3rem;
+    margin: 0 4rem;
+}
+
+.alt-text2 {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: .3rem;
+    margin: 0 4rem;
 }
 
 /*Beginner-marathons*/
@@ -937,10 +1020,12 @@ footer {
 
     .list-h3 {
         margin: auto 6rem 0 0;
+        font-size: 16px;
+        font-weight: 800;
     }
 
     .list-p {
-        margin: -1rem 6rem 2rem 2rem;
+        margin: -1rem 6rem 1rem 0;
     }
 
     ul, ol {
@@ -952,7 +1037,7 @@ footer {
     .in-text-h3 {
         font-size: 16px;
         line-height: 30px;
-        margin-bottom: 1rem;þ
+        margin-bottom: 1rem;
     }
     
     .ul-p {
@@ -1001,6 +1086,11 @@ footer {
         font-size: 16px;
     }
 
+    .separation {
+        display: flex;
+        margin-left: 8rem;
+        margin-bottom: 1rem;
+    }
 /*===========================
    Navbar and main image
 ============================*/
@@ -1039,8 +1129,6 @@ footer {
     .blog-post-container a {
         font-size: 14px;
     }
-
-    /*Sidebar*/
 
 /*===========================
         Converter
@@ -1085,6 +1173,21 @@ footer {
         margin-top: 4rem;
     }
 
+    .blog-post-container1 {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+        grid-gap: 1rem;
+        margin: 2rem;
+    }
+    
+    .blog-post-a1 {
+        display: flex;
+        font-size: 14px;
+        margin: 2rem;
+        font-weight: 600;
+        letter-spacing: .04rem;
+    }
+
 /*===========================
           Blog Posts
 ============================*/
@@ -1110,13 +1213,8 @@ footer {
 }
 
 .blogpost-img2 {
-    margin: 2rem 3rem 4rem 6rem;
+    margin: 2rem 3rem 3rem 6rem;
     width: 110vh;
-}
-
-.blogpost-img5 {
-    width: 40%;
-    margin: 4rem 4rem auto -4rem;
 }
 
 .shoes-h1 {
@@ -1151,6 +1249,14 @@ th, td {
 
 .alt-text {
     margin-top: -1.8rem;
+}
+
+.alt-text1 {
+    margin: -3rem 4rem 4rem 6rem;
+}
+
+.alt-text2 {
+    margin: 0 4rem 4rem 6rem;
 }
 
 /*Starting*/
@@ -1376,7 +1482,7 @@ table {
 }
 
 .sidebar {
-    width: 230%;
+    width: 120%;
     margin: 2rem auto 4rem auto;
     border-left: solid rgba(0, 0, 0, 0.089);
 }
@@ -1447,7 +1553,7 @@ table {
     }
 
     .sidebar {
-        width: 200%;
+        width: 150%;
     }
 
 /*==============================

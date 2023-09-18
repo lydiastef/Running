@@ -38,35 +38,38 @@
           </ul>
       </nav>
     
-    <div class="text-and-carousel">
+    <div class="text-img-container">
+      <div class="carousel-container">
+        <div class="carousel">
+          <img class="carousel-img" src="../Images/destination-m.avif" alt="carousel image 1">
+          <img class="carousel-img" src="../Images/grouprunning.avif" alt="carousel image 2">
+          <img class="carousel-img" src="../Images/half-full.avif" alt="carousel image 3">
+          <img class="carousel-img" src="../Images/ultra.avif" alt="carousel image 4">
+        </div>
+      </div>
       <div class="the-text">
         Some text
       </div>
-      <div class="carousel">
-        <img src="../Images/marathon.avif" alt="Image 1">
-        <img src="../Images/grouprunning.avif" alt="Image 2">
-        <img src="../Images/half-full.avif" alt="carousel images">
-      </div>
     </div>
 
-    <div class="blog-post-container">
+    <div class="blog-post-container1">
         <div class="img-and-link">
             <img src="../Images/runningstart.avif" alt="Woman running" loading="lazy">
-            <div class="blog-post-a">
+            <div class="blog-post-a1">
                 <a class="starting-link" href="../Blog-Posts/starting.html">How to Start Running - A Guide for Beginners</a>
             </div>
         </div>
     
         <div class="img-and-link">
             <img src="../Images/runningfast.avif" alt="Fartlek running" loading="lazy">
-            <div class="blog-post-a">
+            <div class="blog-post-a1">
                 <a class="fartlek-link" href="../Blog-Posts/fartlek.html">Fartlek Running - what is it and how to fartlek run</a>
             </div>
         </div>
 
         <div class="img-and-link">
             <img src="../Images/couch2marathon.avif" alt="Fartlek running" loading="lazy">
-            <div class="blog-post-a">
+            <div class="blog-post-a1">
                 <a class="fartlek-link" href="../Blog-Posts/couch-to-marathon.html">Couch to marathon in 1 year
                 </a>
             </div>
@@ -74,7 +77,7 @@
 
         <div class="img-and-link">
           <img src="../Images/strength.avif" alt="strength training" loading="lazy">
-          <div class="blog-post-a">
+          <div class="blog-post-a1">
               <a class="fartlek-link" href="../Blog-Posts/strength.html">The Best Strength Training Exercises for Runners
               </a>
           </div>
@@ -82,7 +85,7 @@
 
         <div class="img-and-link">
           <img src="../Images/half-full.avif" alt="marathon" loading="lazy">
-          <div class="blog-post-a">
+          <div class="blog-post-a1">
               <a class="fartlek-link" href="../Blog-Posts/half-to-full.html">From Half Marathon to Full Marathon
               </a>
           </div>
@@ -90,7 +93,7 @@
 
         <div class="img-and-link">
           <img src="../Images/side-stitch.avif" alt="side stitch" loading="lazy">
-          <div class="blog-post-a">
+          <div class="blog-post-a1">
               <a class="fartlek-link" href="../Blog-Posts/side-stitch.html">How To Get Rid of a Side Stitch?
               </a>
           </div>
@@ -98,7 +101,7 @@
 
         <div class="img-and-link">
           <img src="../Images/motivation.avif" alt="marathon training motivation" loading="lazy">
-          <div class="blog-post-a">
+          <div class="blog-post-a1">
               <a class="fartlek-link" href="../Blog-Posts/motivation.html">Marathon Training Motivation - how to stay motivated to run?
               </a>
           </div>
@@ -106,39 +109,25 @@
 
         <div class="img-and-link">
           <img src="../Images/warm-up.avif" alt="warm-up for running" loading="lazy">
-          <div class="blog-post-a">
+          <div class="blog-post-a1">
               <a class="fartlek-link" href="../Blog-Posts/warm-up.html">Warm-up and cool-down for running</a>
           </div>
         </div>
 
         <div class="img-and-link">
           <img src="../Images/ultra.avif" alt="ultra runners in nature" loading="lazy">
-          <div class="blog-post-a">
+          <div class="blog-post-a1">
               <a class="fartlek-link" href="../Blog-Posts/ultra.html">Ultra Marathons</a>
           </div>
         </div>
 
         <div class="img-and-link">
           <img src="../Images/destination-m.avif" alt="man running in the mountains" loading="lazy">
-          <div class="blog-post-a">
+          <div class="blog-post-a1">
               <a class="fartlek-link" href="../Blog-Posts/destination-m.html">Destination Marathons</a>
           </div>
         </div>
     </div>
-
-    <script>
-      const carousel = document.querySelector('.carousel');
-      const images = carousel.querySelectorAll('img');
-      let currentIndex = 0;
-
-      function nextImage() {
-          images[currentIndex].style.transform = 'translateX(-100%)';
-          currentIndex = (currentIndex + 1) % images.length;
-          images[currentIndex].style.transform = 'translateX(0)';
-      }
-
-      setInterval(nextImage, 3000); // Change image every 3 seconds (adjust as needed)
-  </script>
     
 
       <!--footer-->
