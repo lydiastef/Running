@@ -522,22 +522,27 @@ nav {
             Pages
 ============================*/
 
+.text-img-container1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
 .text-and-carousel {
     display: flex;
     flex-direction: column;
     border: solid black;
+    margin-top: 10rem;
 }
 
 .carousel-container {
-    width: 85vmin;
+    z-index: -1;
+    width: 100%;
     position: absolute;
     transform: translate(-50%,-50%);
-    top: 45%;
+    top: 40%;
     left: 50%;
     overflow: hidden;
-    border: 2px solid #586333;
-    border-radius: 8px;
-    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
 }
 
 .carousel {
@@ -981,11 +986,23 @@ footer {
     font-size: 16px;
 }
 
+.blog-post-container1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    grid-gap: 1rem;
+    margin: 30rem 2rem 2rem 2rem;
+}
+
+.carousel-container {
+    top: 50%;
+}
+
 }
 
 /*iPad screen size*/
 
 @media screen and (min-width: 750px) { 
+
     h1 {
         font-size: 28px;
         line-height: 40px;
@@ -1172,13 +1189,6 @@ footer {
         float: right;
         margin-top: 4rem;
     }
-
-    .blog-post-container1 {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
-        grid-gap: 1rem;
-        margin: 2rem;
-    }
     
     .blog-post-a1 {
         display: flex;
@@ -1355,6 +1365,16 @@ table {
     margin-top: 3rem;
 }
 
+/*Pages*/
+
+.blog-post-container1 {
+    margin: 36rem 2rem 2rem 2rem;
+}
+
+.carousel-container {
+    top: 60%;
+}
+
 }
 
 @media screen and (min-width: 925px) { 
@@ -1407,6 +1427,14 @@ table {
 /*Desktop screen size*/
 
 @media screen and (min-width: 1000px) { 
+
+    .blog-post-container1 {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+        grid-gap: 1rem;
+        margin: 42rem 2rem 2rem 2rem;
+    }
+
     h1 {
         font-size: 36px;
         margin-left: 14rem;
@@ -1528,10 +1556,17 @@ table {
     margin: auto 4rem;
     border: none;
 }
+
+/*Pages*/
+
+.carousel-container {
+    top: 70%;
+}
 }
 
 @media screen and (min-width: 1200px) { 
-    /*===========================
+
+/*===========================
    Navbar and main image
 ============================*/
 
@@ -1557,6 +1592,19 @@ table {
     }
 
 /*==============================
+             Pages
+==============================*/
+
+    .carousel-container {
+        top: 85%;
+        }
+
+    .blog-post-container1 {
+        margin: 52rem 2rem 2rem 2rem;
+    }
+    }
+
+/*==============================
              Footer
 ==============================*/
 
@@ -1565,6 +1613,4 @@ table {
     border: none;
 }
 
-
-}
 
