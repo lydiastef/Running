@@ -364,7 +364,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
     grid-gap: 1.5rem;
-    margin: 3rem;
+    margin: 2rem;
 }
 
 .blog-post-container1 {
@@ -540,7 +540,7 @@ nav {
     width: 100%;
     position: absolute;
     transform: translate(-50%,-50%);
-    top: 36%;
+    top: 33%;
     left: 50%;
     overflow: hidden;
 }
@@ -989,8 +989,8 @@ footer {
 .blog-post-container1 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
-    grid-gap: 1rem;
-    margin: 30rem 2rem 2rem 2rem;
+    grid-gap: 3rem;
+    margin: 30rem 4rem 2rem 4rem;
 }
 
 .carousel-container {
@@ -1145,6 +1145,11 @@ footer {
 
     .blog-post-container a {
         font-size: 14px;
+    }
+
+    .blog-post-container {
+        grid-gap: 3rem;
+        margin: 4rem;
     }
 
 /*===========================
@@ -1368,7 +1373,7 @@ table {
 /*Pages*/
 
 .blog-post-container1 {
-    margin: 36rem 2rem 2rem 2rem;
+    margin: 36rem 4rem 2rem 4rem;
 }
 
 .carousel-container {
@@ -1429,10 +1434,8 @@ table {
 @media screen and (min-width: 1000px) { 
 
     .blog-post-container1 {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
-        grid-gap: 1rem;
-        margin: 42rem 2rem 2rem 2rem;
+        grid-gap: 3rem;
+        margin: 42rem 6rem 2rem 6rem;
     }
 
     h1 {
@@ -1600,7 +1603,7 @@ table {
         }
 
     .blog-post-container1 {
-        margin: 52rem 2rem 2rem 2rem;
+        margin: 52rem 6rem 2rem 6rem;
     }
     }
 
