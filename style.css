@@ -454,15 +454,21 @@ nav {
           Converter
 ============================*/
 
-.converter-h1 {
-    margin-top: 2rem;
-}
-
-.converter-container {
+.distance-converter, .elevation-converter {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2rem 0;
+    justify-content: center;
+    margin: 1rem auto 1rem 4rem;
+    text-align: left;
+}
+
+.converter-h1 {
+    margin: 2rem auto 2rem 0;
+}
+
+.converter-container {
+    margin: auto auto auto 0;
 }
 
 .converter-boxes {
@@ -1152,7 +1158,11 @@ footer {
     .converters {
         display: flex;
         justify-content: center;
-        margin: auto 4rem;
+        margin: auto 2rem;
+    }
+
+    .converter-h1 {
+        margin: 2rem auto 2rem 0;
     }
 
 
@@ -1536,14 +1546,6 @@ table {
     font-size: 28px;
 }
 
-.distance-converter {
-    margin-right: -6rem;
-}
-
-.elevation-converter {
-    margin-left: -6rem;
-}
-
 /*==============================
              Footer
 ==============================*/
@@ -1557,7 +1559,11 @@ table {
 
 .carousel-container {
     top: 70%;
+    width: 75%;
+    border: solid 14px #586333;
+    box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.5);
 }
+
 }
 
 @media screen and (min-width: 1200px) { 

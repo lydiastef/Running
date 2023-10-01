@@ -135,16 +135,6 @@
     <div id="footerPlaceholder"></div>
 </footer>
 
-      <!--JS to fetch the navbar-->
-<script>
-    fetch('./Blog-Posts/navbar.html')
-      .then(response => response.text())
-      .then(html => {
-        const navbarPlaceholder = document.getElementById('navbarPlaceholder');
-        navbarPlaceholder.innerHTML = html;
-      });
-</script>
-
   <!--JS to fetch the footer-->
 <script>
     fetch('./Blog-Posts/footer.html')
