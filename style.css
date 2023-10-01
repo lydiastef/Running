@@ -921,7 +921,8 @@ footer {
 }
 
 .amz-link-container {
-    margin: 1rem 2rem 1rem 0;
+    margin: 1.7rem 4rem 1rem 0;
+    width: 90%;
 }
 
 .footer-text {
@@ -929,24 +930,25 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 9.5rem 7rem 0 0;
+    margin: 5rem 4rem 0 1rem;
 }
 
 .disclaimer-link {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: left;
     text-decoration: none;
     color: white;
     font-size: 11px;
-    padding: .3rem;
+    padding: .4rem;
+    margin-right: 4rem;
 }
 
 .amz-p {
     font-size: 11px;
     line-height: 15px;
     padding: 0;
-    margin: 3rem 5rem 2rem 2rem;
+    margin: 4rem 5rem 2rem 4rem;
+    width: 60%;
 }
 
 @media screen and (min-width: 620px) { 
