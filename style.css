@@ -928,9 +928,9 @@ footer {
 }
 
 .hero1-h2 {
-    margin-top: 16rem;
+    margin-top: 3rem;
     margin-left: 10rem;
-    font-size: 16px;
+    font-size: 24px;
 }
 
 .blog-post-container1 {
@@ -1079,18 +1079,18 @@ footer {
     }
 
     .hero1-h1 {
-        font-size: 36px;
+        font-size: 32px;
         line-height: 60px;
     }
 
     .hero1-h2 {
-        margin: 6rem auto;
+        margin-top: 4rem;
         font-size: 24px;
         line-height: 36px;
     }
 
     .intro-container {
-        margin-bottom: 3rem;
+        margin-top: 2rem;
     }
 
     .welcome-span {
@@ -1357,9 +1357,9 @@ table {
     }
 
     .hero1-h2 {
-        margin-top: 22rem;
+        margin-top: 6rem;
         margin-left: 6rem;
-        font-size: 18px;
+        font-size: 24px;
         line-height: 30px;
     }
 
@@ -1436,13 +1436,12 @@ table {
 
 .hero1-h1 {
     margin-top: 22rem;
-    font-size: 30px;
+    font-size: 32px;
 }
 
 .hero1-h2 {
-    margin-top: 18rem;
-    margin-left: 16rem;
-    font-size: 20px;
+    margin-top: 8rem;
+    font-size: 28px;
     line-height: 30px;
 }
 
@@ -1539,16 +1538,10 @@ table {
 }
 
 .hero1-h2 {
-    margin-top: 28rem;
-    margin-left: 22rem;
-    font-size: 26px;
+    margin-top: 12rem;
+    font-size: 28px;
     line-height: 42px;
-    margin-bottom: -4rem;
 }
-
-    .intro-container {
-        margin-top: 12rem;
-    }
 
     .sidebar {
         width: 150%;
