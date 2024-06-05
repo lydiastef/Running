@@ -89,6 +89,13 @@ ol, ul {
     margin: 2rem 5rem 2rem 4rem;
 }
 
+li {
+    font-size: 12px;
+    line-height: 26px;
+    letter-spacing: 0.6px;
+    margin: 2rem auto;
+}
+
 .list-p {
     margin: 0;
 }
@@ -1004,7 +1011,7 @@ footer {
     ul, ol {
         font-size: 14px;
         margin: 3rem 0 2rem 6rem;
-        line-height: 60px;
+        line-height: 30px;
     }
 
     .in-text-h3 {
@@ -1022,7 +1029,9 @@ footer {
     }
 
     li {
+        font-size: 14px;
         margin-bottom: 1rem;
+        line-height: 30px;
     }
 
     .ul-border {
@@ -1437,10 +1446,6 @@ table {
     h2 {
         font-size: 26px;
         margin-top: 3rem;
-    }
-
-    p {
-        font-size: 15px;
     }
 
     .in-text-h3 {
