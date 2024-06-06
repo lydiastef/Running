@@ -1,2 +1,8 @@
 RewriteEngine On
 RewriteRule ^Blog-Posts/(.*)$ /$1 [R=301,L]
+
+# Specific rewrites (optional, for additional custom paths)
+# RewriteRule ^Blog-Posts/shoes.html$ /shoes.html [R=301,L]
+# RewriteRule ^Blog-Posts/beginner-shoes.html$ /beginner-shoes.html [R=301,L]
+# RewriteRule ^Blog-Posts/vo2max.html$ /vo2max.html [R=301,L]
+
