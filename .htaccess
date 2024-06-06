@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^Blog-Posts/(.*)$ /$1 [R=301,L]
