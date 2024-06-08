@@ -289,6 +289,71 @@ nav {
     2px 2px 6px rgba(0, 0, 0, 0.8);
 }
 
+.under-hero {
+    background-color: #e0eaed;
+    padding: 1rem;
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.under-hero-boxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.individual-box {
+    width: 144px;
+    border: solid 1px rgb(220, 219, 219);
+    border-radius: 6px;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.2);
+
+}
+
+.box-h2 {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    margin-top: -.2rem;
+    font-size: 16px;
+}
+
+.box-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+.get-started-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 1rem;
+    background-color: #FF574D;
+    color: white;
+    width: 96px;
+    height: 36px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.get-started-btn:hover {
+    background-color: #ba4039;
+}
+
+.btn-link {
+    text-decoration: none;
+
+}
+
 .subscribe-form {
     margin: 3rem 0;
 }
@@ -433,7 +498,8 @@ nav {
 .recent-posts-h3 {
     display: flex;
     justify-content: center;
-    font-size: 16px;
+    font-size: 18px;
+    margin-top: 2rem;
 }
 
 /*===========================
@@ -872,6 +938,14 @@ th {
     text-decoration: underline;
 }
 
+.blogpost-img3 {
+    width: 75%;
+}
+
+.alt-text {
+    margin-top: -.1rem;
+}
+
 .threeimages {
 
 }
@@ -962,6 +1036,10 @@ footer {
 .amz-p {
     margin: 3.5rem 5rem 2rem 4rem;
     width: 50%;
+}
+
+.under-hero-boxes {
+    margin: auto 4rem;
 }
 
 }
@@ -1126,6 +1204,11 @@ footer {
     .blog-post-container {
         grid-gap: 3rem;
         margin: 4rem;
+    }
+
+    .recent-posts-h3 {
+        font-size: 24px;
+        margin-top: 4rem;
     }
 
 /*===========================
@@ -1429,6 +1512,14 @@ table {
     margin-left: 8rem;
 }
 
+.under-hero {
+    padding: 3rem;
+}
+
+.individual-box {
+    width: 224px;
+}
+
 }
 
 /*Desktop screen size*/
@@ -1564,6 +1655,11 @@ table {
 
 .alt-text2 {
     margin-top: -5rem;
+    margin-left: -26rem;
+}
+
+.threeimages {
+    width: 40%;
 }
 
 /*==============================
@@ -1608,6 +1704,14 @@ table {
 
     .sidebar {
         width: 150%;
+    }
+
+    .under-hero-boxes {
+        margin: auto 12rem;
+    }
+    
+    .individual-box {
+        width: 232px;
     }
 
 /*==============================
