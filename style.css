@@ -872,6 +872,10 @@ th {
     text-decoration: underline;
 }
 
+.threeimages {
+
+}
+
 /*===========================
           Footer
 ============================*/
@@ -1460,6 +1464,10 @@ table {
         width: 80%;
     }
 
+    .recent-posts-h3 {
+        font-size: 24px;
+    }
+
 /*===========================
    Navbar and main image
 ============================*/
@@ -1492,6 +1500,10 @@ table {
         margin-left: 8rem;
     }
 
+    .content-and-sidebar {
+        margin: auto, 20rem;
+    }
+
 /*===========================
         Blog Posts
 ============================*/
@@ -1507,11 +1519,6 @@ table {
 
 .blogpost-img2 {
     width: 125vh;
-}
-
-.content-and-sidebar {
-    display: flex;
-    height: 100%;
 }
 
 .sidebar {
@@ -1543,6 +1550,20 @@ table {
 .number {
     width: 8%;
     font-size: 28px;
+}
+
+.threeimages {
+    display: flex;
+    margin-left: 6rem;
+    margin-bottom: 5rem;
+}
+
+.alt-text {
+    margin-top: -5rem;
+}
+
+.alt-text2 {
+    margin-top: -5rem;
 }
 
 /*==============================
