@@ -256,7 +256,6 @@ nav {
 ============================*/
 
 .hero1-img {
-    display: flex;
     margin: 19rem auto 2rem auto;
     z-index: -1;
     position: absolute;
@@ -264,13 +263,11 @@ nav {
 }
 
 .hero1-content {
-    position: relative;
     z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
     margin-top: -19rem;
 }
 
@@ -281,7 +278,6 @@ nav {
 }
 
 .hero1-h2 {
-    text-align: left;
     margin-top: -2rem;
     text-align: center;
     padding-bottom: 1rem;
@@ -295,7 +291,8 @@ nav {
 
 .under-hero {
     background-color: #e0eaed;
-    padding: 1rem;
+    margin-top: -1rem;
+    padding: 2rem;
     box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -304,16 +301,12 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    border-right: solid 1px rgb(222, 221, 221);
 }
 
 .individual-box {
-    width: 144px;
-    border: solid 1px rgb(220, 219, 219);
-    border-radius: 6px;
-    padding: 1rem;
-    background-color: white;
-    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.2);
-
+    border-left: solid 1px rgb(222, 221, 221);
+    padding: .5rem;
 }
 
 .box-h2 {
@@ -321,7 +314,7 @@ nav {
     justify-content: center;
     margin: 1rem;
     margin-top: -.2rem;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .box-img {
@@ -329,7 +322,8 @@ nav {
     align-items: center;
     justify-content: center;
     margin: auto;
-    width: 100%;
+    width: 60%;
+    border-radius: 50%;
 }
 
 .get-started-btn {
@@ -338,11 +332,11 @@ nav {
     justify-content: center;
     margin: auto;
     margin-top: 1rem;
-    background-color: #FF574D;
+    background-color: #1282A2;
     color: white;
-    width: 96px;
-    height: 36px;
-    font-weight: 700;
+    width: 72px;
+    height: 30px;
+    font-size: 12px;
     letter-spacing: 1px;
     border: none;
     border-radius: 6px;
@@ -350,7 +344,7 @@ nav {
 }
 
 .get-started-btn:hover {
-    background-color: #ba4039;
+    background-color: #0E6076;
 }
 
 .btn-link {
@@ -1042,6 +1036,10 @@ footer {
     width: 50%;
 }
 
+.under-hero {
+    margin-top: -4rem;
+}
+
 .under-hero-boxes {
     margin: auto 4rem;
 }
@@ -1191,6 +1189,7 @@ footer {
         margin-top: 4rem;
         font-size: 24px;
         line-height: 36px;
+        padding-bottom: 4rem;
     }
 
     .intro-container {
@@ -1521,7 +1520,7 @@ table {
 }
 
 .individual-box {
-    width: 224px;
+    width: 240px;
 }
 
 }
@@ -1713,9 +1712,19 @@ table {
     .under-hero-boxes {
         margin: auto 12rem;
     }
+
+    .box-h2 {
+        font-size: 18px;
+    }
     
     .individual-box {
-        width: 232px;
+        width: 256px;
+    }
+
+    .get-started-btn {
+        width: 104px;
+        height: 40px;
+        font-size: 14px;
     }
 
 /*==============================
