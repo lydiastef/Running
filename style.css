@@ -96,6 +96,10 @@ li {
     margin: 2rem auto;
 }
 
+.list-ul li {
+    margin: 0;
+}
+
 .li-close-together {
     margin: 0 auto 1rem auto;
 }
@@ -109,6 +113,24 @@ li {
     margin-top: 1rem;
     margin-bottom: -0.5rem;
 }
+
+dl {
+    margin: 2rem;
+    font-size: 12px;
+    line-height: 26px;
+    letter-spacing: 0.6px;
+}
+
+dt {
+    font-weight: bold;
+    margin: 1.5rem 2rem 0 2rem;
+    font-size: 13px;
+}
+
+dd {
+    margin-left: 2rem;
+}
+
 
 .amz-link {
     text-decoration: none;
@@ -1078,6 +1100,22 @@ footer {
         margin: 0 4rem 3rem 0;
     }
 
+    dl {
+        margin: 2rem 4rem;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    
+    dt {
+        font-weight: bold;
+        margin: 1.5rem 2rem 0 2rem;
+        font-size: 15px;
+    }
+    
+    dd {
+        margin-left: 2rem;
+    }
+
     .list-h2 {
         margin: 3rem 6rem 3rem 1rem;
 
@@ -1468,6 +1506,10 @@ table {
 }
 
 @media screen and (min-width: 925px) { 
+
+    article {
+        margin: auto 6rem;
+    }
 
     .intro-p {
         margin: 3rem 1rem 1rem 6rem; 
