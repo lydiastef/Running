@@ -984,8 +984,16 @@ footer {
 
 .footer-container-main {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     flex-direction: row;
     border-top: solid 1px #A4C4C9;
+    padding: 2rem;
+}
+
+.logo-img-footer {
+    margin-top: 2rem;
+    width: 112px;
 }
 
 .amz-link-container {
@@ -996,8 +1004,6 @@ footer {
 .footer-text {
     font-size: 11px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 4rem 4rem 0 1rem;
 }
 

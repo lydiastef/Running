@@ -137,14 +137,12 @@
 
   <!--JS to fetch the footer-->
 <script>
-    fetch('./Blog-Posts/footer.html')
+    fetch('./posts/footer.html')
       .then(response => response.text())
       .then(html => {
         const footerPlaceholder = document.getElementById('footerPlaceholder');
         footerPlaceholder.innerHTML = html;
       });
   </script>
-
-  <script src="script.js"></script>
 </body>
 </html>
